@@ -20,5 +20,26 @@ $ git status
 
 ![](/assets/5)
 
-可以看到，現在practice.txt這份檔案現在處於
+可以看到，剛才新建的practice.txt這份檔案現在處於未被追蹤\(Untracked\)的狀態。
+
+接著讓我們將這份檔案加入staging area。
+
+```
+$ git add practice.txt
+```
+
+再查看一次git status
+
+![](/assets/6)
+
+會發現practice已經被加入Git的追蹤之中了。
+
+讓我們來提交一次看看！
+
+```
+$ git commit -m "新建practice.txt檔案"
+$ git status
+```
+
+![](/assets/7)
 
