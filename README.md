@@ -27,7 +27,7 @@ _p.s. 目前研究室大家都以VSCode為主，但仍可視個人偏好選擇�
 ## 一些hen棒的教學網站
 
 * [W3Scools](https://www.w3schools.com/)
-* [六角學院Bootstrap繁體手冊](http://bootstrap.hexschool.com/)
+* [六角學院Bootstrap4繁體手冊](http://bootstrap.hexschool.com/)
 * [Code Scool](https://www.codeschool.com/)
 * 程式的字典 [DevDocs](https://devdocs.io/)
 * [連猴子都能懂得Git入門指南](https://backlog.com/git-tutorial/tw/)
