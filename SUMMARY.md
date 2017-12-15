@@ -14,5 +14,5 @@
 * [Ch9. RWD響應式網頁實作](ch9-rwdxiang-ying-shi-wang-ye-shi-zuo.md)
 * [Ch10. 超狂必備套件介紹](ch10-chao-kuang-bi-bei-tao-jian-jie-shao.md)
 * [Ch11. 我會寫View了，怎麼跟C\# MVC結合?](ch11-wo-hui-xie-view-le-ff0c-zen-me-gen-c-mvc-jie-54083f.md)
-* Ch12. Css再進階！使用Compass
+* [Ch12. Css再進階！使用Compass](ch12-csszai-jin-jie-ff01-shi-yong-compass.md)
 
