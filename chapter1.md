@@ -20,3 +20,5 @@ Project\_1、Project\_1\_Revised、Project\_1\_Small Revised、 Proejct\_1\_Fina
 
 ![](/assets/神奇寶貝-2)
 
+版本控制就像遊戲的存檔功能，可以存取某時點的檔案狀態
+
