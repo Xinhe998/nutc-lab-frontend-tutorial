@@ -28,6 +28,10 @@ $ git status
 $ git add practice.txt
 ```
 
+> git add後接要加入的檔案，如有多個檔案且要全部加入時使用 ` $ git add .`
+
+
+
 再查看一次git status
 
 ![](/assets/6)
@@ -41,6 +45,10 @@ $ git commit -m "新建practice.txt檔案"
 $ git status
 ```
 
+> git commit 不加 -m 會發生啥摸事？![](/assets/10)會進入vim模式，可編輯多行的commit指令。
+
+
+
 ![](/assets/7)
 
 可以看到因為更動過的檔案已經提交\(commit\)，所以staging carea就被清空囉！
@@ -52,4 +60,6 @@ $ git status
 ![](/assets/9)
 
 可以看到檔案因為被更動了，所以又出現在紅色區囉～
+
+
 
