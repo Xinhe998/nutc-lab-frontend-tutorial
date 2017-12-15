@@ -18,7 +18,7 @@
 * ~~Windows / Mac 電腦 \(廢話\)~~
 * 程式碼編輯器 \([Sublime Text](https://www.sublimetext.com/3), [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/)擇一使用\)  
 
-_        p.s. 目前研究室大家都以VSCode為主，但仍可視個人偏好選擇一項開發工具。_
+_             p.s. 目前研究室大家都以VSCode為主，但仍可視個人偏好選擇一項開發工具。_
 
 * Windows 電腦可安裝 [cmder](http://cmder.net/)\(具有 Linux 溫度的 Windows 命令提示字元工具\)
 * [Git](https://git-scm.com/)
