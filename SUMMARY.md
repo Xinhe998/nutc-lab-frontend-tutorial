@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Ch1. Git版本控制工具使用](chapter1.md)
   * [Git首次設定與初始化](chapter1/gitchu-ci-jian-mian.md)
-  * [開始Git版本控制](chapter1/kai-shi-git-ban-ben-kong-zhi.md)
+  * [Git檔案狀態](chapter1/kai-shi-git-ban-ben-kong-zhi.md)
 * [Ch2. 認識 HTML5 與 CSS4 -1](ch2-htmlyu-css.md)
 * [Ch3. 認識 HTML5 與 CSS4 -2](ch3-ren-shi-html5-yu-css4-2.md)
 * [ex. 切版開發實戰](qie-ban-kai-fa-shi-zhan.md)
