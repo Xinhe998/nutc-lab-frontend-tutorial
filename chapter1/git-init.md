@@ -6,7 +6,7 @@
 $ git --version
 ```
 
-![](/assets/1)
+![](/assets/1.png)
 
 若有成功顯示安裝Git的版本資訊，則代表已成功安裝。
 
@@ -27,7 +27,7 @@ p.s.  **--global**代表全域設定
 $ git config --list
 ```
 
-![](/assets/2)
+![](/assets/2.png)
 
 ## Git專案初始化
 
@@ -46,7 +46,7 @@ Git初始化
 $ git init
 ```
 
-![](/assets/3)
+![](/assets/3.png)
 
 成功後資料夾內就會多出.git這個隱藏資料夾，這個資料夾若遭刪除，即會取消此專案的Git版本控制。
 
