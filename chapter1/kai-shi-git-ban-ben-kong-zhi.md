@@ -1,6 +1,6 @@
 # Git的檔案狀態
 
-![](/assets/4)
+![](/assets/4.png)
 
 新建的檔案和更動過的檔案會進入紅色區，經由** git add **指令進入**等待提交**的黃色區。
 
@@ -18,7 +18,7 @@ $ touch practice.txt
 $ git status
 ```
 
-![](/assets/5)
+![](/assets/5.png)
 
 可以看到，剛才新建的practice.txt這份檔案現在處於未被追蹤\(Untracked\)的狀態。
 
@@ -32,7 +32,7 @@ $ git add practice.txt
 
 再查看一次git status
 
-![](/assets/6)
+![](/assets/6.png)
 
 會發現practice已經被加入Git的追蹤之中了。
 
@@ -45,13 +45,13 @@ $ git status
 
 > git commit 不加 -m 會發生啥摸事？![](/assets/10)會進入vim模式，可編輯多行的commit指令。
 
-![](/assets/7)
+![](/assets/7.png)
 
 可以看到因為更動過的檔案已經提交\(commit\)，所以staging area就被清空囉！
 
-讓我們編輯看看檔案吧！![](/assets/13)輸入文字後儲存，接著再次查看git status
+讓我們編輯看看檔案吧！![](/assets/13.png)輸入文字後儲存，接著再次查看git status
 
-![](/assets/9)
+![](/assets/9.png)
 
 可以看到檔案因為被更動了，所以又出現在紅色區囉～
 
