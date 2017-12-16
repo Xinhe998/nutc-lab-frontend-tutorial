@@ -6,5 +6,5 @@
 
 註冊好帳號後，建立New repository。
 
-![](/assets/21.png)![](/assets/22.png)輸入repo名稱後建立。
+![](/assets/xinhe_github.png)![](/assets/22.png)輸入repo名稱後建立。
 
