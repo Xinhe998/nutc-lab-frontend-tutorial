@@ -42,7 +42,7 @@ $ git branch
 $ git checkout -b develop
 ```
 
-p.s. 如果當下的staging area不為空時，此時再新建一分支，staging area內的檔案也會被移並帶到新分支上哦！
+p.s. 如果當下的staging area不為空，此時再新建一分支，staging area內的檔案也會被移並帶到新分支上哦！
 
 但如果這個分支的變更還不想commit，卻想另開新的分支時該怎麼做？
 
