@@ -30,7 +30,7 @@ $ git reset --hard 620d5e
 
 用個簡單的GIF來解釋如下～
 
-當回復到之前的版本，我們的Head就會重新指向到新版本來顯示
+當回復到之前的版本，我們的Head就會重新指向到新版本來顯示。
 
 ![](/assets/ezgif.com-add-text.gif)
 
