@@ -60,6 +60,12 @@ $ git stash list
 $ git stash pop
 ```
 
+清除暫存區內的資料
+
+```
+$ git stash clear
+```
+
 ## 切換分支
 
 git checkout 除了可以捨棄變更，回復狀態外，也可以用來切換分支
@@ -70,7 +76,5 @@ $ git checkout master
 
 使用 `git checkout branchname` 就可以囉
 
-  ![](/assets/14)
-
-
+![](/assets/14)
 
