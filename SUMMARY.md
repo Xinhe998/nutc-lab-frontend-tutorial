@@ -7,6 +7,7 @@
   * [git checkout](chapter1/git-checkout.md)
   * [Git分支合併](chapter1/git-merge.md)
   * [Git 推上 Github 囉](chapter1/git-to-github.md)
+  * [Git 回復檔案](chapter1/git-hui-fu-dang-an.md)
 * [Ch2. 認識 HTML5 與 CSS4 -1](chapter2.md)
 * [Ch3. 認識 HTML5 與 CSS4 -2](chapter3.md)
 * [ex. 切版開發實戰](qie-ban-kai-fa-shi-zhan.md)
