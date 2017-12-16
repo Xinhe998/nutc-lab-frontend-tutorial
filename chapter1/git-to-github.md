@@ -44,7 +44,7 @@ push成功後可以看到以上訊息！
 
 查看Github該repo內，可以發現本地端的所有commit資料都被push上來囉～![](/assets/25.png)
 
-## Git協作
+## Git多人協作
 
 當需要和其他人一同協作同一專案時，我們可以至該專案複製其git連結並clone到自己本地端
 
