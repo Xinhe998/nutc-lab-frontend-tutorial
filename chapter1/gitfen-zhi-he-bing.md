@@ -8,7 +8,7 @@
 $ git checkout develop
 ```
 
-編輯practice.txt![](/assets/15)此時在develop分支上的practice.txt內容是"hello develop"，
+編輯practice.txt![](/assets/15.png)此時在develop分支上的practice.txt內容是"hello develop"，
 
 但在master分支上依然會是"hello"。
 
@@ -41,7 +41,7 @@ $ git checkout develop
 
 將practice.txt內容修改為"hello world"
 
-![](/assets/16)
+![](/assets/16.png)
 
 ```
 $ git add practice.txt
@@ -56,7 +56,7 @@ $ git checkout master
 
 將practice.txt內容修改為"hello jack"
 
-![](/assets/17)
+![](/assets/17.png)
 
 ```
 $ git add practice.txt
@@ -74,13 +74,13 @@ $ git merge develop
 
 衝突果然如我們預期的發生la!!!!!!!!!
 
-![](/assets/18)
+![](/assets/18.png)
 
 多人協作時發生衝突是無可避免的，大家遇到衝突千萬不要緊張～就讓我們心平氣和地來解個衝突唄～
 
-![](/assets/19)使用VSCode的好處切換分支內容也能跟著即時更新，且當有衝突能夠清楚明瞭的顯示，並讓使用者輕鬆合併。
+![](/assets/19.png)使用VSCode的好處切換分支內容也能跟著即時更新，且當有衝突能夠清楚明瞭的顯示，並讓使用者輕鬆合併。
 
-這時就看自己需要留下與捨棄哪個部分的內容，或是要接受兩者變更都可以哦！![](/assets/20)
+這時就看自己需要留下與捨棄哪個部分的內容，或是要接受兩者變更都可以哦！![](/assets/20.png)
 
 解決完衝突後，別忘了儲存檔案，並再次提交哦~
 
