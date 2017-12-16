@@ -49,9 +49,7 @@ $ git status
 
 可以看到因為更動過的檔案已經提交\(commit\)，所以staging area就被清空囉！
 
-讓我們編輯看看檔案吧！
-
-![](/assets/8)輸入文字後儲存，接著再次查看git status
+讓我們編輯看看檔案吧！![](/assets/13)輸入文字後儲存，接著再次查看git status
 
 ![](/assets/9)
 

@@ -42,5 +42,11 @@ $ git branch
 $ git checkout -b develop
 ```
 
+p.s. 如果當下的staging area不為空時，此時再新建一分支，staging area內的檔案也會被移並帶到新分支上哦！
+
+但如果這個分支的變更還不想commit，卻想另開新的分支時該怎麼做？
+
+這時只要使用 `git stash` ，就可以先把這個分支的變更丟到暫存區中，它們就不會被帶到新分支上了
+
 
 
