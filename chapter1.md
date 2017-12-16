@@ -32,13 +32,13 @@ Project\_1、Project\_1\_Revised、Project\_1\_Small Revised、 Proejct\_1\_Fina
 
 使用者一定要連網才能進行版控
 
-![](/assets/雲端硬碟)
+![](/assets/drive.png)
 
 分散式：
 
 使用者不會只取得到最後一版的檔案，而是所有版本。
 
-![](/assets/分散式管理)
+![](/assets/分散式管理.png)
 
 * ### GITHUB是全世界最受歡迎的程式碼雲端儲存庫
 * ### 提交速度快
