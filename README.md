@@ -29,7 +29,7 @@ _p.s. 目前研究室大家都以VSCode為主，但仍可視個人偏好選擇�
 * [W3Scools](https://www.w3schools.com/)
 * [六角學院Bootstrap4繁體手冊](http://bootstrap.hexschool.com/)
 * [Code Scool](https://www.codeschool.com/)
-* 開發語言字典 [DevDocs](https://devdocs.io/)
+* 各式開發語言的API文件 [DevDocs](https://devdocs.io/)
 * [連猴子都能懂得Git入門指南](https://backlog.com/git-tutorial/tw/)
 
 ## 一些好用的工具
