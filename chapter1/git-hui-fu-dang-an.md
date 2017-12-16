@@ -26,5 +26,11 @@ $ git reset --hard 620d5e
 
 此時觀察看看practice.txt，可以發現內容已回復到`620d5e` 版本囉～
 
-![](/assets/32.png)
+那麼回復檔案的過程中，Git log是怎麼變化的呢?
+
+用個簡單的GIF來解釋如下～
+
+當回復到之前的版本，我們的Head就會重新指向到新版本來顯示
+
+![](/assets/ezgif.com-add-text.gif)
 
