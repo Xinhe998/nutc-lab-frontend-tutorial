@@ -6,5 +6,5 @@
 
 註冊好帳號後，建立New repository。
 
-![](/assets/21)![](/assets/22)輸入repo名稱後建立。
+![](../assets/21)![](../assets/22)輸入repo名稱後建立。
 
