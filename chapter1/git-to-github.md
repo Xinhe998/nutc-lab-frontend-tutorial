@@ -54,5 +54,13 @@ push成功後可以看到以上訊息！
 $ git clone https://github.com/Xinhe998/test.git【複製到的連結】
 ```
 
+clone下來的專案，將擁有完整檔案與所有開發人員完整的commit資料。
 
+假若他人又更動了檔案資料，並Push到Github上，我該如何取得最新版本呢?
+
+```
+$ git pull origin master
+```
+
+下達 `git pull` 指令，就可以完整取得最新更動的檔案資料囉～
 
