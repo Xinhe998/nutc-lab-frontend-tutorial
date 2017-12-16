@@ -18,7 +18,7 @@ Project\_1、Project\_1\_Revised、Project\_1\_Small Revised、 Proejct\_1\_Fina
 
 ![](/assets/import.png)
 
-![](/assets/神奇寶貝-2)
+![](http://1.bp.blogspot.com/-MvT8UPjk3gI/UJ6XXh19tgI/AAAAAAAAAIU/rhrrCcmKzRg/s1600/13.png)
 
 版本控制就像遊戲的存檔進度功能，可以存取某時點的檔案狀態。
 
