@@ -32,7 +32,9 @@ $ git branch
 
 ![](/assets/12)
 
-> 通常我們較不會使用master主分支進行開發，多會另開一分支develop，並且又在develop上依正在開發功能細切分支。
+> 通常我們較不會使用master主分支進行開發，會確保master上是為穩定的系統，
+>
+> 多會另開一分支develop，並且又在develop上依正在開發功能細切分支。
 >
 > 且依照開發功能細開的分支，命名多為 feature-【功能名】，e.g. `feature-profile`。
 >
