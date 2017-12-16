@@ -26,9 +26,17 @@ $ git checkout practice.txt
 $ git branch
 ```
 
+![](/assets/11)
+
 當有多人同時進行開發，或做實驗性的功能coding時，又或是臨時有bug要處理，又不想放下手邊開發的流程，此時可以另開分支。
 
+![](/assets/12)
+
 > 通常我們較不會使用master主分支進行開發，多會另開一分支develop，並且又在develop上依正在開發功能細切分支。
+>
+> 且依照開發功能細開的分支，命名多為 feature-【功能名】，e.g. `feature-profile`。
+>
+> 若分支為處理bug專用，則通常命名為 fix-【功能名】，e.g. `fix-upload`。
 
 ```
 $ git checkout -b develop
