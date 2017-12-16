@@ -46,7 +46,31 @@ p.s. 如果當下的staging area不為空時，此時再新建一分支，stagin
 
 但如果這個分支的變更還不想commit，卻想另開新的分支時該怎麼做？
 
-這時只要使用 `git stash` ，就可以先把這個分支的變更丟到暫存區中，它們就不會被帶到新分支上了
+這時只要使用 `git stash` ，就可以先把這個分支的變更丟到暫存區中，它們就不會被帶到新分支上了～
+
+列出暫存區內的所有資料
+
+```
+$ git stash list
+```
+
+將暫存區內的資料回復到staging area中
+
+```
+$ git stash pop
+```
+
+## 切換分支
+
+git checkout 除了可以捨棄變更，回復狀態外，也可以用來切換分支
+
+```
+$ git checkout master
+```
+
+使用 `git checkout branchname` 就可以囉
+
+  ![](/assets/14)
 
 
 
