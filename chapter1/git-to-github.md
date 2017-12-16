@@ -17,7 +17,13 @@
 我們須在本地端把剛剛得到的連結加進這個專案的遠端庫
 
 ```
-$ git remote add origin https://github.com/Xinhe998/test.git【網址改成自己的連結哦】
+$ git remote add origin【遠端庫代稱】 https://github.com/Xinhe998/test.git【網址改成自己的連結哦】
+```
+
+然後使用 `git push` 指令將已提交的檔案推到Github
+
+```
+git push origin【遠端庫代稱】 master【分支名】
 ```
 
 
