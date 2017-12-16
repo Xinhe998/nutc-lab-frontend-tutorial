@@ -10,9 +10,9 @@
 >
 > 其中，第 4 步的那個「通知」，就是發一個請原作來拉回去（Pull）的請求（Request），稱之 Pull Request，簡稱 PR。
 
-請大家fork本次的作業：[https://github.com/Xinhe998/nutc-lab-git-practice](https://github.com/Xinhe998/nutc-lab-git-practice)
+##### 請大家fork本次的作業：[https://github.com/Xinhe998/nutc-lab-git-practice](https://github.com/Xinhe998/nutc-lab-git-practice)
 
-並在**下次上課前**完成這個PR哦～
+##### 並在**下次上課前**完成這個PR哦～
 
 ---
 
