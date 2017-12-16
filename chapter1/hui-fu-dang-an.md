@@ -26,11 +26,11 @@ $ git checkout practice.txt
 $ git branch
 ```
 
-![](/assets/11)
+![](/assets/11.png)
 
 當有多人同時進行開發，或做實驗性的功能coding時，又或是臨時有bug要處理，又不想放下手邊開發的流程，此時可以另開分支。
 
-![](/assets/12)
+![](/assets/12.png)
 
 > 通常我們較不會使用master主分支進行開發，會確保master上是為穩定的系統，
 >
@@ -84,5 +84,5 @@ $ git checkout master
 
 使用 `git checkout branchname` 就可以囉
 
-![](/assets/14)
+![](/assets/14.png)
 
