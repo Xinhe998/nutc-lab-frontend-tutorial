@@ -12,6 +12,8 @@ $ git checkout develop
 
 但在master分支上依然會是"hello"。
 
+我們可以commit剛才編輯的資料後，切換到master分支瞧瞧！
+
 ```
 $ git add practice.txt
 提交剛才編輯的資料
@@ -24,5 +26,7 @@ $ git checkout master
 $ git merge develop
 ```
 
-利用 `git merge branchname` 可以將指定的分支內容合併進當前的分支
+利用 `git merge branchname` 可以將指定的分支內容合併進當前的分支。
+
+現在develop分支和master分支上的practice.txt內容都會是"hello develop"囉～
 
