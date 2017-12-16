@@ -17,7 +17,7 @@
 我們須在本地端把剛剛得到的連結加進這個專案的遠端庫
 
 ```
-$ git remote add origin https://github.com/Xinhe998/test.git
+$ git remote add origin https://github.com/Xinhe998/test.git【網址改成自己的連結哦】
 ```
 
 
