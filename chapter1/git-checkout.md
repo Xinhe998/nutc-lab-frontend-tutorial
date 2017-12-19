@@ -16,7 +16,7 @@ $ git checkout practice.txt
 
 使用 `git checkout filename` 會將該檔案回復到上一次commit的狀態，若有多個檔案且要全部回復\(捨棄變更\)，
 
-可以使用 `git checkout .`
+也可以使用 `git checkout .` 把所有在staging area的檔案回復到上一次commit狀態。
 
 ## 建立新分支
 
