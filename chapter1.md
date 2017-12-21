@@ -2,7 +2,7 @@
 
 > 請先在電腦中安裝好Git：[https://git-scm.com](https://git-scm.com)
 
-## 為何要使用版本控制\(Version Constrol System\)
+## 為何要使用版本控制\(Version Control System\)
 
 **使用版本控制前常做這種蠢事：**
 
