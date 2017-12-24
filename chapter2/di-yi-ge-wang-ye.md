@@ -18,3 +18,5 @@
 
 安裝好上述套件後，在VSCode新增一html檔案，輸入html5並按下Enter
 
+![](/assets/auto-html5.gif)
+
