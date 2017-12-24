@@ -11,10 +11,17 @@ CSS 排版有一個很重要的觀念： Box Model 。
 - padding :為留白，從內容向外開始算起，增加空間。
 - border :為邊框，整體大小最外面的邊框。
 - margin :為邊界，區塊與其他區塊的距離。
-
-![](/assets/layout.png)
+```
+【padding/margin/border】: [上面值] [右邊值] [下面值] [左邊值];
+```
+在這裡，順序非常重要，必須按照**順時針**設定。
+```
+【padding/margin/border】: [上下值] [左右值];
+```
 
 一般我們指定的 width（寬度） 和 height（高度）是 content 的寬和高，而沒有包含 border 和 padding 。
+
+![](/assets/layout.png)
 
 e.g. 
 ```
