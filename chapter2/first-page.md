@@ -20,11 +20,11 @@
 
 ![](/assets/auto-html5.gif)
 
-可以發現 **HTML Snippets** 套件自動完成了html5的template。
+可以發現 **HTML Snippets** 套件自動幫我們完成了html5的template，是不是超級方便^_^
 
 ## head 頁面資訊
 
-我們可以由剛剛產生的html5 template看到head區塊
+我們可以由剛剛產生的html5 template看到head區塊：
 
 ```
 <title></title>
@@ -32,7 +32,6 @@
 
 此標籤中的就是此網頁的標題，也就是您瀏覽器最左上面的標題，若沒設定則會顯示成此網頁的檔名。
 
----
 
 ```
 <meta charset="UTF-8">
@@ -40,7 +39,6 @@
 
 定義文件編碼。
 
----
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,7 +59,6 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 更多html `<meta>` Tag用法：[https://www.w3schools.com/tags/tag\_meta.asp](https://www.w3schools.com/tags/tag_meta.asp)
 
----
 
 ```
 <link href="css/style.css" rel="stylesheet">
@@ -76,7 +73,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 ```
 <div id="" class="">...</div>
 ```
-h1~h6：代表不同大小的標題
+#### h1~h6：代表不同大小的標題
 ```
 <h1>這是 h1 標題的大小</h1>
 <h2>這是 h2 標題的大小</h2>
