@@ -178,6 +178,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 </form>
 
 ```
+![](/assets/html-form.png)
 
 ## id與class的區別
 id是唯一性的、不可重複的。
