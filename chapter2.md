@@ -10,7 +10,7 @@ HTML文件是由標籤組成\(如下圖\)，除了`<!DOCTYPE>` 外大部分都�
 
 ![](/assets/html結構.png)
 
-其中，`<html></html>` 用來定義html文件，`<head></head>` 用來定義檔頭內容、頁面資訊，`<body></body>` 用來定義網頁內容本文。
+其中，`<html></html>` 用來定義html文件，`<head></head>` 用來定義各種頁面資訊(e.g. 網站的Logo、大標題)，`<body></body>` 用來定義網頁內容本文。
 
 
 
