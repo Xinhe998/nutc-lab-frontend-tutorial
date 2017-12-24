@@ -12,7 +12,8 @@
 * [Ch2. 認識 HTML5 與 CSS4 -1](chapter2.md)
   * [深入 HTML](chapter2/html-intro.md)
   * [熟悉 CSS](chapter2/css-intro.md)
-  * [ex. 練習作業](chapter2/css-practice.md)
+  <!-- * [ex. 練習作業](chapter2/css-practice.md) -->
+  * [CSS排版須知: Box Model](chapter2/css-layout.md)
 * [Ch3. 認識 HTML5 與 CSS4 -2](chapter3.md)
 * [ex. 切版開發實戰](qie-ban-kai-fa-shi-zhan.md)
 * [Ch4. 第一次接觸JavaScript就上手](chapter4.md)
