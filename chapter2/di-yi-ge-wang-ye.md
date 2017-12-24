@@ -20,5 +20,5 @@
 
 ![](/assets/auto-html5.gif)
 
-
+可以發現 **HTML Snippets **套件自動完成了html5的template。
 
