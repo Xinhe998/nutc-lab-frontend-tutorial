@@ -153,15 +153,18 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 </table>
 ```
 ![](/assets/html-table.png)
+
 #### button：按鈕
 ```
 <button>我是按鈕</button>
 ```
 這是產生按鈕的第二種方法，第一種為`<input type="button" value="我是按鈕">`。
+
 #### hr：分隔線
 ```
 <hr />
 ```
+
 #### br：換行
 ```
 <br />
