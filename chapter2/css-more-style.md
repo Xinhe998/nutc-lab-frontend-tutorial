@@ -69,3 +69,7 @@ table, td, th
   border:1px solid green;
 }
 ```
+
+### display
+
+每個 HTML 元素都有一個預設的 display 值，大部分元素的 display 屬性，預設值通常是 block 或 inline 其中一個。
