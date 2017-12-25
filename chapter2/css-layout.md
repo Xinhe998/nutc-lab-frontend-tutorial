@@ -6,6 +6,7 @@ CSS 排版有一個很重要的觀念： Box Model 。
 
 每一個元素我們都可視它為一個 Box（方塊）。
 
+![](/assets/layout.png)
 一個 Box 由以下屬性組成：margin 、 padding 、 border 、 content 。
 
 - padding :為留白，從內容向外開始算起，增加空間。
@@ -19,10 +20,6 @@ CSS 排版有一個很重要的觀念： Box Model 。
 【padding/margin/border】: [上下值] [左右值];
 ```
 
-一般我們指定的 width（寬度） 和 height（高度）是 content 的寬和高，而沒有包含 border 和 padding 。
-
-![](/assets/layout.png)
-
 e.g. 
 ```
 button { 
@@ -35,3 +32,18 @@ button {
 } 
 ```
 ![](/assets/css-margin-padding.png)
+
+---
+
+一般我們指定的 width（寬度） 和 height（高度）是 content 的寬和高，而沒有包含 border 和 padding 。
+| 屬性       | 說明                 |
+| ---------- | -------------------- |
+| height     | 設置元素的高度。     |
+| width      | 設置元素的寬度。     |
+| min-width  | 設置元素的最小寬度。 |
+| max-width  | 設置元素的最大寬度。 |
+| min-height | 設置元素的最小高度。 |
+| max-height | 設置元素的最大高度。 |
+
+
+
