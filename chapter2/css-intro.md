@@ -113,7 +113,7 @@ button.second-btn {
 
 
 
-### 多個元素同個CSS
+### 分組選擇器：多個元素同個CSS
 承上例，如果要一次設定多個元素為同一個CSS樣式，可以這樣設定：
 ```
 button#first-btn ,button.second-btn {
@@ -155,4 +155,37 @@ button#first-btn ,button.second-btn {
 input[type="button"] {
   color: red;
 }
+```
+
+### 偽類選擇器
+偽類 (pseudo class) 就是在選已經存在的東西。
+#### 錨偽類
+在支援 CSS 的瀏覽器中，連結的不同狀態都可以不同的方式顯示。
+- :link  /* 還沒訪問 */
+- :visited  /* 已訪問 */
+- :hover  /* 滑鼠移到上面 */
+- :active  /* 已選定 */
+```
+a:link {color: #FF0000}		
+a:visited {color: #00FF00}	
+a:hover {color: #FF00FF}	
+a:active {color: #0000FF}	
+```
+#### 第一個與最後一個
+- :first-child
+- :last-child
+```
+p:first-child {font-weight: bold;}
+p:last-child {font-weight: 300;}
+```
+
+#### 第幾個：nth-child(n)
+```
+p:nth-child(2) {color: red;}
+p:nth-child(odd/even) {background: grey;}
+```
+
+#### 允許鍵盤輸入的元素焦點：focus
+```
+input:focus {border-color: blue;}
 ```
