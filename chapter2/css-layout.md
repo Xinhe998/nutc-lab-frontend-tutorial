@@ -36,6 +36,7 @@ button {
 ---
 
 一般我們指定的 width（寬度） 和 height（高度）是 content 的寬和高，而沒有包含 border 和 padding 。
+
 | 屬性       | 說明                 |
 | ---------- | -------------------- |
 | height     | 設置元素的高度。     |
