@@ -16,7 +16,7 @@
   * [CSS單位](chapter2/css-unit.md)
   * [CSS排版須知: Box Model](chapter2/css-layout.md)
   * [CSS文字、背景、表格、display](chapter2/css-more-style.md)
-  * [ex. 練習作業](chapter2/html-css-practice.md)
+  <!-- * [ex. 練習作業](chapter2/html-css-practice.md) -->
 * [Ch3. 認識 HTML5 與 CSS4 -2](chapter3.md)
 * [ex. 切版開發實戰](qie-ban-kai-fa-shi-zhan.md)
 * [Ch4. 第一次接觸JavaScript就上手](chapter4.md)
