@@ -73,3 +73,13 @@ table, td, th
 ### display
 
 每個 HTML 元素都有一個預設的 display 值，大部分元素的 display 屬性，預設值通常是 block 或 inline 其中一個。
+
+| 屬性         | 說明                                       |
+| ------------ | ------------------------------------------ |
+| none         | 此元素不會被顯示。                         |
+| block        | 此元素將顯示為區塊元素，且前後會帶有換行。 |
+| inline       | 預設。行内元素。                           |
+| inline-block | 行内區塊元素。                             |
+| list-item    | 此元素會作為列表顯示。                     |
+
+![](/assets/display.png)
