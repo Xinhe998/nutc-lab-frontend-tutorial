@@ -10,7 +10,7 @@
 ```
 <style type="text/css">
   div {
-    color: white;
+      color: white;
   }
 </style>
 <div>...</div>
@@ -29,19 +29,19 @@
 - 類型 (Type) 選擇器：HTML 標籤
 ```
 h1 {
-  color: red;
+    color: red;
 }
 ```
 - Class 選擇器：使用者自訂
 ```
 .my-button {
-  color: white;
+    color: white;
 }
 ```
 - ID 選擇器：使用者自訂
 ```
 #container {
-  background-color: blue;
+    background-color: blue;
 }
 ```
 
