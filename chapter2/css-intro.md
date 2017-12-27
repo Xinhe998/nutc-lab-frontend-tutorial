@@ -2,7 +2,7 @@
 
 首先我們要先知道如何把CSS套用到網頁上。
 
-1. Inline
+1. Inline \(最不建議使用\)
    ```
    <div style="color: white; font-size: 20px;">...</div>
    ```
