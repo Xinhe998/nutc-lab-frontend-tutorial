@@ -37,5 +37,19 @@
 * [ ] 完成內文
 * [ ] 完成footer
 
+---
 
+## GitHub Page 建立靜態網頁
+
+作業push到github上之後 可以按Settings &gt; GitHub Pages 選擇master branch &gt; Save
+
+![](/assets/github-settings.png)![](/assets/github-page-select.png)
+
+![](/assets/github-page-url.png)
+
+作業就會產生一個網址囉～
+
+假如你的html檔名是index.html
+
+那麼就可以到【你的github page網址】/index.html看到你的作業！
 
