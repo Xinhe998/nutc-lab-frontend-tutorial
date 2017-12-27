@@ -20,11 +20,12 @@
 >    ```
 > 4. 如何隱藏li的圓點？
 >    ```
->    list-style: none;
+>    li {
+>        list-style: none;
+>    }
 >    ```
 
-[https://github.com/Xinhe998/nutc-html-css-practice](https://github.com/Xinhe998/nutc-html-css-practice)  
-
+[https://github.com/Xinhe998/nutc-html-css-practice](https://github.com/Xinhe998/nutc-html-css-practice)
 
 完成後請發PR回本次練習作業哦！
 
