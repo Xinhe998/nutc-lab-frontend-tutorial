@@ -7,19 +7,25 @@
    <div style="color: white; font-size: 20px;">...</div>
    ```
 2. Embed
+
    ```
-   <style type="text/css">
-      div {
-         color: white;
-      }
-   </style>
+   <head>
+      <style type="text/css">
+         div {
+            color: white;
+         }
+      </style>
+   </head>
 
    <div>...</div>
    ```
+
 3. External Link
 
    ```
-   <link rel="stylesheet" type="text/css" href="style.css">
+   <head>
+       <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
    ```
 
    > p.s.假如有多個外部連結，則越後面套入的CSS優先權越高。
