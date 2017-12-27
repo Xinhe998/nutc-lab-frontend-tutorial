@@ -9,15 +9,17 @@
 2. Embed
    ```
    <style type="text/css">
-   div {
-      color: white;
-   }
+      div {
+         color: white;
+      }
    </style>
+
    <div>...</div>
    ```
 3. External Link
+
    ```
-   <link href="style.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
    ```
 
    > p.s.假如有多個外部連結，則越後面套入的CSS優先權越高。
