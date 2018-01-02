@@ -18,4 +18,21 @@
 - fixed:
 元素會依照top、right、bottom、left設定而被固定在某個位置，而當使用者將網頁往下拉時，**元素的位置不會改變**。
 
-每一個方向 (top, right, bottom, left) 的位置值可以是長度、百分比、或是 auto。
+>每一個方向 (top, right, bottom, left) 的位置值可以是長度、百分比、或是 auto。
+
+## overflow
+
+用來設定當內容放不下時的處理方式。
+
+- visible: 內容放不下也顯示出。
+- hidden: 放不下的內容就不顯示出來。
+- scroll: 無論內容放得下放不下，都加入上下捲軸及左右捲軸的功能。
+- auto: 當內容放不下時，加上捲軸的功能。
+
+![](./../assets/css-overflow.png)
+
+## z-index
+
+用來決定元素重疊的順序。z-index 值比較大個元素會被放在上面。
+
+![](./../assets/basic-z-index.gif)
