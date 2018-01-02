@@ -39,5 +39,25 @@
 
 Demo：https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
 
+最簡單的背景顏色transition示範：
+
 <iframe height='265' scrolling='no' title='domeOo' src='//codepen.io/fukuball/embed/domeOo/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/fukuball/pen/domeOo/'>domeOo</a> by fukuball (<a href='https://codepen.io/fukuball'>@fukuball</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+## ex. css-transition 練習
+
+CSS transition被大量運用在網頁元素hover時的效果
+1. 練習一
+
+![](./../assets/transition-demo-2.gif)
+
+2. 練習二：練習購物網站時常出現的效果。
+
+![](./../assets/transition-demo.gif)
+
+## 供應商前綴字(Vendor Prefixes)
+
+由於瀏覽器不同品牌的廠商，搶先於標準完成前就開始發佈已包含實作功能造成的結果。因為有些CSS屬性有可能在瀏覽器中是屬於實驗性質的，所以在前面加上了瀏覽器供應商的前綴字，代表是要開啟這個實驗性的CSS屬性。
+
+![](./../assets/browser.png)
+
