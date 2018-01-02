@@ -2,6 +2,8 @@
 
 ![](./../assets/fb-screenshot.png)
 
+https://github.com/Xinhe998/nutc-facebook-html-css-practic
+
 **部分內容** 可使用截圖，但一定要使用css position製作排版。
 
 完成後請發PR回本次練習作業！
