@@ -1,6 +1,6 @@
 # Facebook 切版練習作業
 
-![](./assets/screenshot.png)
+![](./../assets/fb-screenshot.png)
 
 **部分內容** 可使用截圖，但一定要使用css position製作排版。
 
