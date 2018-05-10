@@ -27,8 +27,6 @@ p.s.  **--global**代表全域設定
 $ git config --list
 ```
 
-![](/assets/2.png)
-
 ## Git專案初始化
 
 完成上述步驟後，現在我們就可以為一個專案加入Git版本控制～
