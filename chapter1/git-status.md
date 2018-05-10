@@ -43,7 +43,7 @@ $ git commit -m "新建practice.txt檔案"
 $ git status
 ```
 
-> git commit 不加 -m 會發生啥摸事？![](/assets/10.png)會進入vim模式，可編輯多行的commit指令。
+> git commit 不加 -m 會發生什摸事？![](/assets/10.png)會進入vim模式，可編輯多行的commit指令。
 
 ![](/assets/7.png)
 
