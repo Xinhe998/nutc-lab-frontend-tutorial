@@ -4,7 +4,7 @@
 
 請在安裝完Git後打開Cmd。
 
-```text
+```bash
 $ git --version
 ```
 
@@ -14,7 +14,7 @@ $ git --version
 
 一開始要告訴Git使用者資訊
 
-```text
+```bash
 $ git config --global user.name "Xinhe"
 $ git config --global user.email "xinhe998@gmail.com"
 ```
@@ -25,7 +25,7 @@ p.s. **--global**代表全域設定
 
 接著可用以下指令查看剛剛設定是否成功。
 
-```text
+```bash
 $ git config --list
 ```
 
@@ -35,7 +35,7 @@ $ git config --list
 
 這裡我們先以新建一個test專案做示範
 
-```text
+```bash
 建立test資料夾
 $ mkdir test
 
