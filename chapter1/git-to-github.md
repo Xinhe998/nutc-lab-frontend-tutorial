@@ -8,9 +8,11 @@
 
 ![](../.gitbook/assets/xinhe_github.png)
 
-![](../.gitbook/assets/22.png)
-
 輸入repo名稱後建立。
+
+
+
+![](../.gitbook/assets/22.png)
 
 這樣遠端儲存庫就建立好了，讓我們試著把本地端已提交的資料推到Github上吧！每一個帳號的每一個repo都會有自己專屬的git連結
 
