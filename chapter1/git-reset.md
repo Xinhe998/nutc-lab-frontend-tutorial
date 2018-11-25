@@ -8,7 +8,7 @@ Git強大的地方就在於保留了完整的commit紀錄與資料，使用者�
 
 首先查看目前擁有的版本
 
-```text
+```bash
 $ git log
 ```
 
@@ -16,7 +16,7 @@ $ git log
 
 可以發現每個commit版本都擁有一個SHA1碼，可以作為該次commit的ID，我們通常只取前6碼就可以了。
 
-```text
+```bash
 $ git reset --hard 620d5e
 ```
 
