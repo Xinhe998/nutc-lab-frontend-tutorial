@@ -8,13 +8,13 @@
 
 暨上一篇建立的test專案，我們在之中加入一文字檔來做練習。
 
-```text
+```bash
 $ touch practice.txt
 ```
 
 接著查看Git狀態
 
-```text
+```bash
 $ git status
 ```
 
@@ -38,18 +38,26 @@ $ git add practice.txt
 
 讓我們來提交一次看看！
 
-```text
+```bash
 $ git commit -m "新建practice.txt檔案"
 $ git status
 ```
 
-> git commit 不加 -m 會發生什摸事？![](../.gitbook/assets/10.png)會進入vim模式，可編輯多行的commit指令。
+> git commit 不加 -m 會發生什麼事？
+>
+> ![](../.gitbook/assets/10.png)
+>
+> 會進入vim模式，可編輯多行的commit指令。
 
 ![](../.gitbook/assets/7.png)
 
 可以看到因為更動過的檔案已經提交\(commit\)，所以staging area就被清空囉！
 
-讓我們編輯看看檔案吧！![](../.gitbook/assets/13.png)輸入文字後儲存，接著再次查看git status
+讓我們編輯看看檔案吧！
+
+![](../.gitbook/assets/13.png)
+
+輸入文字後儲存，接著再次查看git status
 
 ![](../.gitbook/assets/9.png)
 
