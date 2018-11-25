@@ -1,4 +1,4 @@
-# Ch5. 初次見面jQuery
+# Ch4. 初次見面jQuery
 
 ## jQuery 是什麼？
 
