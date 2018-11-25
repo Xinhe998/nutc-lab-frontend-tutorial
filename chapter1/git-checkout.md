@@ -1,14 +1,16 @@
+# git checkout
+
 ## 不小心刪除檔案了怎麼辦？
 
 承前篇所建的test專案為例，我們可以試著將practice.txt刪除
 
-```
+```text
 $ rm practice.txt
 ```
 
 可以發現檔案已經消失得無影無蹤，連垃圾桶都找不到檔案\(超崩潰Q\_Q\)～
 
-```
+```text
 $ git checkout practice.txt
 ```
 
@@ -22,15 +24,15 @@ $ git checkout practice.txt
 
 我們可以查看當下所在的分支
 
-```
+```text
 $ git branch
 ```
 
-![](/assets/11.png)
+![](../.gitbook/assets/11.png)
 
 當有多人同時進行開發，或做實驗性的功能coding時，又或是臨時有bug要處理，又不想放下手邊開發的流程，此時可以另開分支。
 
-![](/assets/12.png)
+![](../.gitbook/assets/12.png)
 
 > 通常我們較不會使用master主分支進行開發，會確保master上是為穩定的系統，
 >
@@ -40,13 +42,13 @@ $ git branch
 >
 > 若分支為處理bug專用，則通常命名為 fix-【功能名】，e.g. `fix-upload`。
 
-```
+```text
 $ git checkout -b develop
 ```
 
 列出所有分支
 
-```
+```text
 $ git branch -a
 ```
 
@@ -58,19 +60,19 @@ p.s. 如果當下的staging area不為空，此時再新建一分支，staging a
 
 列出暫存區內的所有資料
 
-```
+```text
 $ git stash list
 ```
 
 將暫存區內的資料回復到staging area中
 
-```
+```text
 $ git stash pop
 ```
 
 清除暫存區內的資料
 
-```
+```text
 $ git stash clear
 ```
 
@@ -78,11 +80,11 @@ $ git stash clear
 
 git checkout 除了可以捨棄變更，回復狀態外，也可以用來切換分支
 
-```
+```text
 $ git checkout master
 ```
 
 使用 `git checkout branchname` 就可以囉
 
-![](/assets/14.png)
+![](../.gitbook/assets/14.png)
 

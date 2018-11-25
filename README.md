@@ -1,4 +1,4 @@
-# NUTC 森Lab \| 前端教學文件
+# Introduction
 
 以往研究室的教學文件較零散也不易留傳給學弟妹，希望之後的教學資源皆能夠保存在網路上，
 
@@ -21,7 +21,6 @@
 _p.s. 目前研究室大家都以VSCode為主，但仍可視個人偏好選擇一項開發工具。_
 
 * Windows 電腦可安裝 [cmder](http://cmder.net/)\(具有 Linux 溫度的 Windows 命令提示字元工具\)
-
 * [Git](https://git-scm.com/)版本控制工具\(之後會請大家交作業都使用Git，養成多人協作使用版控的好習慣哦！\)
 
 ## 一些hen棒的教學網站
@@ -35,8 +34,5 @@ _p.s. 目前研究室大家都以VSCode為主，但仍可視個人偏好選擇�
 ## 一些好用的工具
 
 * [Codepen](https://codepen.io/)
-* [Refresh-SF - Online JavaScript and CSS Compressor](http://refresh-sf.com/)
 * [Octotree - Code tree for GitHub](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?utm_source=chrome-app-launcher-info-dialog)
-
-
 

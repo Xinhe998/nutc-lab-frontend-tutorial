@@ -1,25 +1,32 @@
-# Html-Css 練習作業
+# ex. 練習作業
 
-![](/assets/html-css-practice.png)
+![](../.gitbook/assets/html-css-practice.png)
 
 > 1. div如何設定CSS水平置中呢？
->    ```
+>
+>    ```text
 >    margin: 0 auto;
 >    ```
+>
 > 2. 請使用列表方式製作上方menu
->    ```
+>
+>    ```text
 >    <ul>
 >        <li>
 >            <a href="#">HOME</a>
 >        </li>
 >    </ul>
 >    ```
+>
 > 3. 如何讓menu並排顯示？
->    ```
+>
+>    ```text
 >    display: inline-block;
 >    ```
+>
 > 4. 如何隱藏li的圓點？
->    ```
+>
+>    ```text
 >    li {
 >        list-style: none;
 >    }
@@ -37,15 +44,13 @@
 * [ ] 完成內文
 * [ ] 完成footer
 
----
-
 ## GitHub Page 建立靜態網頁
 
 作業push到github上之後 可以按Settings &gt; GitHub Pages 選擇master branch &gt; Save
 
-![](/assets/github-settings.png)![](/assets/github-page-select.png)
+![](../.gitbook/assets/github-settings.png)![](../.gitbook/assets/github-page-select.png)
 
-![](/assets/github-page-url.png)
+![](../.gitbook/assets/github-page-url.png)
 
 作業就會產生一個網址囉～
 
