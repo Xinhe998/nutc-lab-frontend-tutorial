@@ -44,7 +44,9 @@ $ git remote -v
 
 push成功後可以看到以上訊息！
 
-查看Github該repo內，可以發現本地端的所有commit資料都被push上來囉～![](../.gitbook/assets/25.png)
+查看Github該repo內，可以發現本地端的所有commit資料都被push上來囉～
+
+![](../.gitbook/assets/25.png)
 
 ## Git多人協作
 
