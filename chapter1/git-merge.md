@@ -6,17 +6,21 @@
 
 就讓我們來做一個分支合併的練習吧～
 
-```text
+```bash
 $ git checkout develop
 ```
 
-編輯practice.txt![](../.gitbook/assets/15.png)此時在develop分支上的practice.txt內容是"hello develop"，
+編輯practice.txt
+
+![](../.gitbook/assets/15.png)
+
+此時在develop分支上的practice.txt內容是"hello develop"，
 
 但在master分支上依然會是"hello"。
 
 我們可以commit剛才編輯的資料後，切換到master分支瞧瞧！
 
-```text
+```bash
 $ git add practice.txt
 提交剛才編輯的資料
 $ git commit -m "新增develop字樣"
@@ -36,7 +40,7 @@ $ git merge develop
 
 有時候合併並不會如此順利。如果**在不同的分支中都修改了同一個檔的同一部分**，這時就會出現**conflict衝突**。
 
-```text
+```bash
 切換到develop分支
 $ git checkout develop
 ```
@@ -45,13 +49,13 @@ $ git checkout develop
 
 ![](../.gitbook/assets/16.png)
 
-```text
+```bash
 $ git add practice.txt
 提交剛才編輯的資料
 $ git commit -m "修改develop分支為hello world"
 ```
 
-```text
+```bash
 切換到master分支
 $ git checkout master
 ```
@@ -60,7 +64,7 @@ $ git checkout master
 
 ![](../.gitbook/assets/17.png)
 
-```text
+```bash
 $ git add practice.txt
 提交剛才編輯的資料
 $ git commit -m "修改master分支為hello jack"
@@ -70,7 +74,7 @@ $ git commit -m "修改master分支為hello jack"
 
 這時試著將develop分支合併到master分支看看吧！
 
-```text
+```bash
 $ git merge develop
 ```
 
@@ -80,11 +84,15 @@ $ git merge develop
 
 多人協作時發生衝突是無可避免的，大家遇到衝突千萬不要緊張～就讓我們心平氣和地來解個衝突唄～
 
-![](../.gitbook/assets/19.png)使用VSCode的好處就是切換分支內容也能跟著即時更新，
+![](../.gitbook/assets/19.png)
+
+使用VSCode的好處就是切換分支內容也能跟著即時更新，
 
 且當有衝突能夠清楚明瞭的顯示，並讓使用者輕鬆合併。
 
-這時就看自己需要留下與捨棄哪個部分的內容，或是要接受兩者變更都可以哦！![](../.gitbook/assets/20.png)
+這時就看自己需要留下與捨棄哪個部分的內容，或是要接受兩者變更都可以哦！
+
+![](../.gitbook/assets/20.png)
 
 解決完衝突後，別忘了儲存檔案，並再次提交哦~
 

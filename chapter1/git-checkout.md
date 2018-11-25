@@ -4,13 +4,13 @@
 
 承前篇所建的test專案為例，我們可以試著將practice.txt刪除
 
-```text
+```bash
 $ rm practice.txt
 ```
 
 可以發現檔案已經消失得無影無蹤，連垃圾桶都找不到檔案\(超崩潰Q\_Q\)～
 
-```text
+```bash
 $ git checkout practice.txt
 ```
 
@@ -24,7 +24,7 @@ $ git checkout practice.txt
 
 我們可以查看當下所在的分支
 
-```text
+```bash
 $ git branch
 ```
 
@@ -42,13 +42,13 @@ $ git branch
 >
 > 若分支為處理bug專用，則通常命名為 fix-【功能名】，e.g. `fix-upload`。
 
-```text
+```bash
 $ git checkout -b develop
 ```
 
 列出所有分支
 
-```text
+```bash
 $ git branch -a
 ```
 
@@ -60,19 +60,19 @@ p.s. 如果當下的staging area不為空，此時再新建一分支，staging a
 
 列出暫存區內的所有資料
 
-```text
+```bash
 $ git stash list
 ```
 
 將暫存區內的資料回復到staging area中
 
-```text
+```bash
 $ git stash pop
 ```
 
 清除暫存區內的資料
 
-```text
+```bash
 $ git stash clear
 ```
 
@@ -80,7 +80,7 @@ $ git stash clear
 
 git checkout 除了可以捨棄變更，回復狀態外，也可以用來切換分支
 
-```text
+```bash
 $ git checkout master
 ```
 
