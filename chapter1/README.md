@@ -3,6 +3,20 @@
 ## 從Git 版本控制到 Github雲端儲存庫
 
 > 請先在電腦中安裝好Git：[https://git-scm.com](https://git-scm.com)
+>
+> 若是使用Mac或Linux，可以用以下指令安裝：
+>
+> 1.安裝Homebrew：
+>
+> ```bash
+> $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+> ```
+>
+> 2.利用Homebrew安裝git：
+>
+> ```bash
+> $ brew install git
+> ```
 
 ### 為何要使用版本控制\(Version Control System\)
 
