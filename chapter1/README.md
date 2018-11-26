@@ -4,7 +4,7 @@
 
 > 請先在電腦中下載並安裝好Git：[https://git-scm.com](https://git-scm.com)
 >
-> 若是使用Mac或Linux，也可以用以下指令安裝：
+> 若是使用Mac，也可以用以下指令安裝：
 >
 > 1.安裝Homebrew：
 >
