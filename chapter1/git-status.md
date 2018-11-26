@@ -24,7 +24,7 @@ $ git status
 
 接著讓我們將這份檔案加入staging area。
 
-```text
+```bash
 $ git add practice.txt
 ```
 
