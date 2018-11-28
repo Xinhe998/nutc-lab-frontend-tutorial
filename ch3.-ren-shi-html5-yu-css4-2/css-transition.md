@@ -21,19 +21,23 @@
 
 > 什麼是貝茲曲線？ 
 >
-> ![](../.gitbook/assets/transition-function.png)
+>
+>
+> ![](../.gitbook/assets/image.png)
+>
+> * linear：均速
+> * ease：先快後慢
+> * ease-in：加速
+> * ease-out：減速
+> * ease-in-out：較平緩的 `ease`
+> * step-start
+> * step-end
+> * steps\(\)
+> * cubic-bezier\(\)
+>
+> Demo：[https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 
-* linear：均速
-* ease：先快後慢
-* ease-in：加速
-* ease-out：減速
-* ease-in-out：較平緩的 `ease`
-* step-start
-* step-end
-* steps\(\)
-* cubic-bezier\(\)
 
-Demo：[https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 
 最簡單的背景顏色transition示範：
 
