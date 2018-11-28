@@ -24,19 +24,19 @@
 
 我們可以由剛剛產生的html5 template看到head區塊：
 
-```text
+```markup
 <title></title>
 ```
 
 此標籤中的就是此網頁的標題，也就是您瀏覽器最左上面的標題，若沒設定則會顯示成此網頁的檔名。
 
-```text
+```markup
 <meta charset="UTF-8">
 ```
 
 定義文件編碼。
 
-```text
+```markup
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
@@ -55,7 +55,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 更多html `<meta>` Tag用法：[https://www.w3schools.com/tags/tag\_meta.asp](https://www.w3schools.com/tags/tag_meta.asp)
 
-```text
+```markup
 <link href="css/style.css" rel="stylesheet">
 ```
 
@@ -65,13 +65,13 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 ### div：用來標示一個網頁區塊，可以說是一個能夠將其他元素包起來的"容器"。
 
-```text
+```markup
 <div id="" class="">...</div>
 ```
 
 ### h1~h6：代表不同大小的標題
 
-```text
+```markup
 <h1>這是 h1 標題的大小</h1>
 <h2>這是 h2 標題的大小</h2>
 <h3>這是 h3 標題的大小</h3>
@@ -84,19 +84,19 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 ### p：段落
 
-```text
+```markup
 <p>你好嘛?</p>
 ```
 
 ### span：文字的區域
 
-```text
+```markup
 <span>你好嘛?</span>
 ```
 
 ### a：超連結
 
-```text
+```markup
 <a href="連結網址" target="連結目標" title="替代文字">...</a>
 ```
 
@@ -105,13 +105,13 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 ### img：圖片
 
-```text
+```markup
 <img src="插入的圖片網址" alt="圖片替代文字" title="圖片提示文字">
 ```
 
 ### input：輸入欄位
 
-| 屬性 Attribute | 描述 Description |
+| 屬性Attribute | 描述 Description |
 | :--- | :--- |
 | type | 設定類型，可用的類型有: text、textarea、button、checkbox、date、email、file、password、number、color、submit ...... |
 | value | 指定值給input標籤。 |
@@ -124,7 +124,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 ### ul、li：列表
 
-```text
+```markup
 <ul>
   <li>第一個項目</li>
   <li>第二個項目</li>
@@ -138,7 +138,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 * tr 為一列
 * td 為儲存格
 
-  ```text
+  ```markup
   <table>
   <caption>表格標題</caption>
   <tr>
@@ -163,7 +163,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 ### button：按鈕
 
-```text
+```markup
 <button>我是按鈕</button>
 ```
 
@@ -171,19 +171,19 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
 ### hr：分隔線
 
-```text
+```markup
 <hr />
 ```
 
 ### br：換行
 
-```text
+```markup
 <br />
 ```
 
 ### form：表單
 
-```text
+```markup
 <form>
   <label for="boy">男</label>
   <input name="gender" type="radio" id="boy">
