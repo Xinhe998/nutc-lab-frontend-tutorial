@@ -19,7 +19,9 @@
 * Animation duration：通常以s為單位\(秒\)，可以定義小數點例如0.5s或.5s，預設值是0s。
 * Animation Type：時間函式，這是用來設定轉場過程時所使用的貝茲曲線。內建的幾個可直接使用數值如下，直接使用名稱就可以取用。
 
-> 什麼是貝茲曲線？ ![](../.gitbook/assets/transition-function.png)
+> 什麼是貝茲曲線？ 
+>
+> ![](../.gitbook/assets/transition-function.png)
 
 * linear：均速
 * ease：先快後慢
