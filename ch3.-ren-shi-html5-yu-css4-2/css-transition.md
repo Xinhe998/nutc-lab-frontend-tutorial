@@ -37,7 +37,7 @@ Demo：[https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-funct
 
 最簡單的背景顏色transition示範：
 
-See the Pen [domeOo](https://codepen.io/fukuball/pen/domeOo/) by fukuball \([@fukuball](https://codepen.io/fukuball)\) on [CodePen](https://codepen.io).
+[https://codepen.io/fukuball/pen/domeOo](https://codepen.io/fukuball/pen/domeOo/)
 
 ## ex. css-transition 練習
 
