@@ -4,13 +4,13 @@
 
 1. Inline \(最不建議使用\)
 
-   ```text
+   ```markup
    <div style="color: white; font-size: 20px;">...</div>
    ```
 
 2. Embed
 
-   ```text
+   ```markup
    <head>
       <style type="text/css">
          div {
@@ -24,7 +24,7 @@
 
 3. External Link
 
-   ```text
+   ```markup
    <head>
        <link rel="stylesheet" type="text/css" href="style.css">
    </head>
@@ -38,7 +38,7 @@
 
 * 類型 \(Type\) 選擇器：HTML 標籤
 
-  ```text
+  ```css
   h1 {
     color: red;
   }
@@ -46,7 +46,7 @@
 
 * Class 選擇器：使用者自訂
 
-  ```text
+  ```css
   .my-button {
     color: white;
   }
@@ -54,7 +54,7 @@
 
 * ID 選擇器：使用者自訂
 
-  ```text
+  ```css
   #container {
     background-color: blue;
   }
@@ -65,7 +65,7 @@
 但有時候css設定並沒有想像中這麼簡單。  
 例如今天html如下這樣呈現時
 
-```text
+```markup
 <ul>
   <li>
     first
@@ -82,7 +82,7 @@
 當想改變ul中li的字型顏色，難道要為每個li都加上class嗎？這樣豈不是太麻煩了？  
 這時候CSS就可以這樣設定：
 
-```text
+```css
 ul li {
   color: red;
 }
@@ -90,7 +90,7 @@ ul li {
 
 ## 子代選擇器
 
-```text
+```markup
 <div>
     <span>Blue</span>
     <p>
@@ -101,18 +101,20 @@ ul li {
 
 CSS若使用子代選擇器，如下表示：
 
-```text
+```css
 div > span { 
   color: blue; 
 }
 ```
 
-![](../.gitbook/assets/css-child-selector.png)  
+  
 只有div **下一層** 的span會套用樣式。
+
+![](../.gitbook/assets/css-child-selector.png)
 
 若使用後代選擇器，如下表示：
 
-```text
+```css
 div span { 
   color: blue; 
 }
@@ -124,14 +126,14 @@ div span {
 
 假若html如下這樣呈現：
 
-```text
+```markup
 <button id="first-btn">First</button>
 <button id="second-btn">Second</button>
 ```
 
 如果要分別更改兩個不同的button，則CSS可以這樣設定：
 
-```text
+```css
 button#first-btn {
   color: red;
 }
@@ -144,7 +146,7 @@ button.second-btn {
 
 承上例，如果要一次設定多個元素為同一個CSS樣式，可以這樣設定：
 
-```text
+```css
 button#first-btn ,button.second-btn {
   color: red;
 }
@@ -156,13 +158,13 @@ button#first-btn ,button.second-btn {
 
 舉例來說，若我們有以下的 HTML，
 
-```text
+```markup
 <button class="large-btn red-btn">這是多重 Class 的例子。</button>
 ```
 
 那麼CSS可以如下：
 
-```text
+```css
 .large-btn { 
   width: 150px;
   height; 50px;
@@ -179,14 +181,14 @@ button#first-btn ,button.second-btn {
 
 今天有一html如下：
 
-```text
+```markup
 <input type="text">
 <input type="button" value="送出">
 ```
 
 若只想更改input type是button的樣式，則CSS可以這樣設定：
 
-```text
+```css
 input[type="button"] {
   color: red;
 }
@@ -205,7 +207,7 @@ input[type="button"] {
 * :hover  / _滑鼠移到上面_ /
 * :active  / _已選定_ /
 
-  ```text
+  ```css
   a:link {color: #FF0000}        
   a:visited {color: #00FF00}    
   a:hover {color: #FF00FF}    
@@ -217,21 +219,23 @@ input[type="button"] {
 * :first-child
 * :last-child
 
-  ```text
+  ```css
   p:first-child {font-weight: bold;}
   p:last-child {font-weight: 300;}
   ```
 
 ### 第幾個：nth-child\(n\)
 
-```text
+```css
 p:nth-child(2) {color: red;}
 p:nth-child(odd/even) {background: grey;}
 ```
 
 ### 允許鍵盤輸入的元素焦點：focus
 
-```text
+```css
 input:focus {border-color: blue;}
 ```
+
+
 

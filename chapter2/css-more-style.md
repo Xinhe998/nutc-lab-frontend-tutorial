@@ -24,13 +24,13 @@
 
 ### background-image
 
-```text
+```css
 body {background-image: url(/assets/bg.png);}
 ```
 
 ### background-repeat
 
-```text
+```css
 body {
   background-image: url(/assets/bg.png);
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
 
 ### background-position
 
-```text
+```css
 body {
   background-image: url(/assets/bg.png);
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body {
 
 也可以只用百分比值或長度值。
 
-```text
+```css
 body {
   background-image: url(/assets/bg.png);
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
 
 ### background-attachment
 
-```text
+```css
 body {
   background-image: url(/assets/bg.png);
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@ body {
 
 ### 邊框：border
 
-```text
+```css
 table, td, th
 {
   border:1px solid green;

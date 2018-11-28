@@ -6,7 +6,9 @@ CSS 排版有一個很重要的觀念： Box Model 。
 
 每一個元素我們都可視它為一個 Box（方塊）。
 
-![](../.gitbook/assets/layout.png) 一個 Box 由以下屬性組成：margin 、 padding 、 border 、 content 。
+ 一個 Box 由以下屬性組成：margin 、 padding 、 border 、 content 。
+
+![](../.gitbook/assets/layout.png)
 
 * padding :為留白，從內容向外開始算起，增加空間。
 * border :為邊框，整體大小最外面的邊框。
@@ -24,7 +26,7 @@ CSS 排版有一個很重要的觀念： Box Model 。
 
 e.g.
 
-```text
+```css
 button { 
     border: none;
     background-color: grey;

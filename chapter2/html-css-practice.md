@@ -10,7 +10,7 @@
 >
 > 2. 請使用列表方式製作上方menu
 >
->    ```text
+>    ```markup
 >    <ul>
 >        <li>
 >            <a href="#">HOME</a>
@@ -26,7 +26,7 @@
 >
 > 4. 如何隱藏li的圓點？
 >
->    ```text
+>    ```css
 >    li {
 >        list-style: none;
 >    }
