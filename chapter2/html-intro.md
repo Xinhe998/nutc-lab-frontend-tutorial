@@ -140,26 +140,26 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 
   ```markup
   <table>
-  <caption>表格標題</caption>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
+      <caption>表格標題</caption>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td> 
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td> 
+        <td>94</td>
+      </tr>
   </table>
   ```
 
-  ![](../.gitbook/assets/html-table.png)
+![](../.gitbook/assets/image.png)
 
 ### button：按鈕
 
@@ -193,7 +193,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
 </form>
 ```
 
-![](../.gitbook/assets/html-form.png)
+![](../.gitbook/assets/screenshot-file-users-xinhe-desktop-untitled-1-html-1543401068079.png)
 
 ## id與class的區別
 
