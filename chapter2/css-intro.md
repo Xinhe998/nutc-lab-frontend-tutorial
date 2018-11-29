@@ -169,7 +169,7 @@ button#first-btn ,button.second-btn {
 ```css
 .large-btn { 
   width: 150px;
-  height; 50px;
+  height: 50px;
   font-size:20px; 
 }
 
