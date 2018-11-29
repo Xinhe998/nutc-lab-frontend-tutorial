@@ -4,7 +4,7 @@
 
 > 1. div如何設定CSS水平置中呢？
 >
->    ```text
+>    ```css
 >    margin: 0 auto;
 >    ```
 >
@@ -20,7 +20,7 @@
 >
 > 3. 如何讓menu並排顯示？
 >
->    ```text
+>    ```css
 >    display: inline-block;
 >    ```
 >
