@@ -88,6 +88,8 @@ ul li {
 }
 ```
 
+這樣頁面上所有在ul中的li都會套用到以上樣式。
+
 ## 子代選擇器
 
 ```markup
@@ -108,7 +110,7 @@ div > span {
 ```
 
   
-只有div **下一層** 的span會套用樣式。
+只有div **下一層** 的span會套用樣式。因此p中的字樣並不會套用樣式。
 
 ![](../.gitbook/assets/css-child-selector.png)
 
