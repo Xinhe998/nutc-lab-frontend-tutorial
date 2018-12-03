@@ -45,11 +45,13 @@
 
 ## ex. css-transition 練習
 
-CSS transition被大量運用在網頁元素hover時的效果 1. 練習一
+CSS transition被大量運用在網頁元素hover時的效果 
+
+練習一
 
 ![](../.gitbook/assets/transition-demo-2.gif)
 
-1. 練習二：練習購物網站時常出現的效果。
+練習二：練習購物網站時常出現的效果。
 
 ![](../.gitbook/assets/transition-demo.gif)
 
