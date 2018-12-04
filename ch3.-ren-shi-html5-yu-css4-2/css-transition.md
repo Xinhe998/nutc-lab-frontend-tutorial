@@ -51,9 +51,13 @@ CSS transition被大量運用在網頁元素hover時的效果
 
 ![](../.gitbook/assets/transition-demo-2.gif)
 
+![](../.gitbook/assets/dec-05-2018-00-05-28.gif)
+
 練習二：練習購物網站時常出現的效果。
 
-![](../.gitbook/assets/transition-demo.gif)
+![](../.gitbook/assets/dec-05-2018-00-02-13.gif)
+
+![](../.gitbook/assets/dec-04-2018-23-59-08.gif)
 
 ## 供應商前綴字\(Vendor Prefixes\)
 
