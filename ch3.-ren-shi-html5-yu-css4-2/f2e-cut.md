@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/fb-screenshot.png)
 
-[https://github.com/Xinhe998/nutc-facebook-html-css-practic](https://github.com/Xinhe998/nutc-facebook-html-css-practic)
+[https://github.com/Xinhe998/nutc-facebook-html-css-practice](https://github.com/Xinhe998/nutc-facebook-html-css-practice)
 
 **部分內容** 可使用截圖，但一定要使用css position製作排版。
 
