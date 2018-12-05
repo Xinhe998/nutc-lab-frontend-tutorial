@@ -2,14 +2,15 @@
 
 ## DOM簡介
 
-DOM的核心概念是將HTML於元素轉換成一顆節點數，而每一個標籤就是一個一個節點（Nodes），以走訪的方式來存取HTML元素。
+DOM的核心概念是將HTML於元素轉換成一顆節點樹，而每一個標籤就是一個一個節點（Nodes），**每一個節點皆為物件\(Object\)且擁有各自的屬性以及方法**，並且DOM以走訪的方式來存取HTML元素。
 
-![DOM&#x7BC0;&#x9EDE;&#x6A39;](../.gitbook/assets/image%20%283%29.png)
+![DOM&#x7BC0;&#x9EDE;&#x6A39;](../.gitbook/assets/image%20%285%29.png)
 
 ## JavaScript取得HTML元素
 
-JavaScript要拿到HTML元素，就是利用上述DOM的方式取得節點物件，  
-JavaScript可以用getElementById\(\)、getElementByTagName\(\)、getElementByName\(\)的方式拿到DOM元素。
+JavaScript要拿到HTML元素，就是利用上述DOM的方式取得節點物件，
+
+JavaScript可以用以下幾種方式拿到DOM元素：
 
 1. getElementById\(\)
 
@@ -53,6 +54,66 @@ JavaScript可以用getElementById\(\)、getElementByTagName\(\)、getElementByNa
     <input name="myInput" type="text" value="大家好" />
 </body>
 ```
+
+ 4. getElementsByClassName\(\)
+
+```markup
+<head>
+    <script type="text/javascript">
+        //alert所有元素class是box的第一個物件之標籤內的內容
+        alert(document.getElementsByClassName("box")[0].innerHTML)
+    </script>
+</head>
+<body>
+    <div class="box">box1</div>
+    <div class="box">box2</div>
+    <div class="box">box3</div>
+</body>
+```
+
+ 5. querySelector\(\) & querySelectorAll\(\)  
+      用CSS Selector來取得「第一個」或「所有」符合條件的節點物件。
+
+```markup
+<head>
+    <script type="text/javascript">
+        //alert元素class是box的第一個物件之標籤內的內容
+        alert(document.querySelector(".box").innerHTML)
+        //元素class是box的所有物件集合（NodeList）
+        document.querySelectorAll(".box")
+    </script>
+</head>
+<body>
+    <div class="box">box1</div>
+    <div class="box">box2</div>
+    <div class="box">box3</div>
+</body>
+```
+
+![querySelectorAll\(\)&#x7D50;&#x679C;&#x793A;&#x7BC4;](../.gitbook/assets/image%20%282%29.png)
+
+## DOM節點間查找
+
+因為DOM節點樹是分層的觀念，所以就會有父子關係和兄弟關係
+
+![](../.gitbook/assets/image.png)
+
+* **childNodes**
+* **firstChild**
+* **lastChild**
+* **parentNode**
+* **previousSibling**
+* **nextSibling**
+
+## JavaScript操作HTML元素常用方法
+
+| 方法 Method | 描述 Description |
+| :--- | :--- |
+| innerHTML |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 
 

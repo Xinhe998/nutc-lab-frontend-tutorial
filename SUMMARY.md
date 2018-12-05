@@ -35,6 +35,5 @@
 * [Ch8. 網頁速成好工具 Boostrap4](chapter8.md)
 * [Ch9. RWD響應式網頁實作](chapter9.md)
 * [Ch10. 超狂必備套件介紹](chapter10.md)
-* [Ch11. 我會寫View了，但怎麼跟C\# MVC結合?](chapter11.md)
-* [Ch12. CSS再進階！使用Compass](chapter12.md)
+* [Ch11. CSS再進階！使用Compass](chapter12.md)
 
