@@ -23,13 +23,14 @@ _p.s. 目前研究室大家都以VSCode為主，但仍可視個人偏好選擇�
 * Windows 電腦可安裝 [cmder](http://cmder.net/)\(具有 Linux 溫度的 Windows 命令提示字元工具\)
 * [Git](https://git-scm.com/)版本控制工具\(之後會請大家交作業都使用Git，養成多人協作使用版控的好習慣哦！\)
 
-## 一些hen棒的教學網站
+## 一些hen棒的教學網站＆文件
 
 * [W3Scools](https://www.w3schools.com/)
 * [六角學院Bootstrap4繁體手冊](http://bootstrap.hexschool.com/)
 * [Code School](https://www.codeschool.com/)
 * 各式開發語言的API文件 [DevDocs](https://devdocs.io/)
 * [連猴子都能懂得Git入門指南](https://backlog.com/git-tutorial/tw/)
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ## 一些好用的工具
 

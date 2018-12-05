@@ -25,5 +25,29 @@ ECMAScript是目前Javascript統一的規格標準。
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-首先請在VSCode新增ㄧHTML檔案，並
+
+
+首先請在VSCode新增ㄧHTML檔案。  
+
+
+HTML引入JavaScript程式同樣有幾種方式：
+
+1. External Link
+
+```markup
+<head>
+    <script type="text/javascript" src="test.js"></script>
+</head>
+```
+
+    2. Embed  
+瀏覽器只要讀到&lt;script&gt;標籤，就會知道內含JavaScript程式碼。
+
+```markup
+<script type="text/javascript">
+    .....
+</script>
+```
+
+
 
