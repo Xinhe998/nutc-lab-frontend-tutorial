@@ -2,6 +2,8 @@
 
 在前幾章課程中，我們學習了很多如何利用Html & CSS做出精美的網頁，但這樣的網頁，只能稱作靜態網頁，若需要有更多動態效果的互動網頁，我們需要使用客戶端的網頁技術，像是JavaScript這樣的腳本語言。
 
+![HTML&#x3001;CSS&#x8207;JavaScript&#x4E4B;&#x9593;&#x95DC;&#x4FC2;](../.gitbook/assets/group-4.png)
+
 ## 規格版本
 
 ECMAScript是目前Javascript統一的規格標準。
@@ -16,7 +18,7 @@ ECMAScript是目前Javascript統一的規格標準。
 
 {% hint style="info" %}
 **問：**ES 是什麼？  
-**答：**ES 是 ECMAScript 的縮寫。 ES 後面跟著數字，則是ECMAScript 的不同版本號。
+**答：**ES 是 ECMAScript 的縮寫。 ES 後面跟著數字，則是ECMAScript的不同版本號。
 {% endhint %}
 
 ## 開發環境
