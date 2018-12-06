@@ -109,11 +109,12 @@ JavaScript可以用以下幾種方式拿到DOM元素：
 
 | 方法 Method | 描述 Description |
 | :--- | :--- |
+| appendChild\(\) |  |
+| click\(\) |  |
+| focus\(\) |  |
 | innerHTML |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| style |  |
+| toString\(\) |  |
 
 
 
