@@ -109,12 +109,14 @@ JavaScript可以用以下幾種方式拿到DOM元素：
 
 | 方法 Method | 描述 Description |
 | :--- | :--- |
-| appendChild\(\) |  |
-| click\(\) |  |
-| focus\(\) |  |
-| innerHTML |  |
-| style |  |
-| toString\(\) |  |
+| appendChild\(\) | 在節點內的最後添加子節點。 |
+| createElement\(\) | 創造物件。 |
+| click\(\) | 點擊此節點物件。 |
+| focus\(\) | 聚焦此節點物件。 |
+| innerHTML | 取得該節點內的HTHL。 |
+| style | 設置或返回元素的CSS樣式屬性。 |
+| setAttribute\(\) | 設定元素的指定屬性值。 |
+| toString\(\) | 將元素轉型為字串。 |
 
 
 
