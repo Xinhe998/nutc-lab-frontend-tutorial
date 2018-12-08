@@ -1,6 +1,4 @@
-# JavaScript的函數＆物件
-
-## JavaScript的函數
+# JavaScript的函數
 
 在JavaScript函數是把共用的一些程式碼獨立成為程式區塊，再用呼叫的方式來使用，而且能夠傳入參數和傳回執行結果。在JavaScript中分為內建函數及使用者自定義函數。
 
