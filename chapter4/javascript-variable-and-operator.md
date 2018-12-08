@@ -84,3 +84,86 @@ JavaScript 有很多種資料型態：
 
 ## JavaScript的運算子（Operator）
 
+### 算術運算子
+
+| 運算子（Operator） | 描述（Description） |
+| :--- | :--- |
+| + | 加 |
+| - | 減 |
+| \* | 乘 |
+| / | 除 |
+| % | 取餘數 |
+| ++ | 遞增 |
+| -- | 遞減 |
+
+需要注意的是遞增（減）的運算可以放在變數前後，但兩者的差別是遞增（減）符號放在變數前，變數的值會立刻加或減一，放在變數後則會是在執行運算式後才改變。
+
+```javascript
+var a = 10, b, c;
+b = ++a;
+c = a++;
+console.log(b);  //12
+console.log(c);  //10
+```
+
+### 指定運算子
+
+| 運算子（Operator） | 描述（Description） |
+| :--- | :--- |
+| = | 指定敘述，x = y也就是將y值指定到x上 |
+| += | x +=y 等同於 x = x + y |
+| -= | x -=y 等同於 x = x - y |
+| \*= | x \*=y 等同於 x = x \* y |
+| /= | x /=y 等同於 x = x / y |
+| %= | x %=y 等同於 x = x % y |
+
+### 比較運算子
+
+| 運算子（Operator） | 描述（Description） |
+| :--- | :--- |
+| == | 等於 |
+| === | **值和型態都等於** |
+| != | 不等於 |
+| !== | **值或型態不等於** |
+| &gt; | 大於 |
+| &gt;= | 大於等於 |
+| &lt; | 小於 |
+| &lt;= | 小於等於 |
+
+### 邏輯運算子
+
+| 運算子（Operator） | 描述（Description） |
+| :--- | :--- |
+| && | and |
+| \|\| | or |
+| ! | not |
+
+### 三元運算子
+
+**語法**
+
+```text
+test ? expression1 : expression2
+```
+
+**範例**
+
+```javascript
+var x = 10;
+(x < 5) ? console.log("x < 5") : console.log("x > 5");   //x > 5
+```
+
+### typeof 運算子
+
+印出變數的型態。
+
+```javascript
+typeof "Xinhe";  //string
+typeof 10; //number
+typeof true; //boolean
+typeof [1,2,3,4];  //object
+typeof function(){};  //function
+```
+
+
+

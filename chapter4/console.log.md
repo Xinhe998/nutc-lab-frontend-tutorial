@@ -11,5 +11,5 @@ console.log\(\) 跟 alert\(\) 很相似，我們常都是為了要觀察變數�
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-是不是超級方便！
+
 
