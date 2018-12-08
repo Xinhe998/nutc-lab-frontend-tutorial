@@ -30,6 +30,7 @@
   * [JavaScript的函數＆物件](chapter4/javascript-methods-and-object.md)
   * [ex. 練習作業](chapter4/ex.-zuo.md)
 * [Ch5. 進階JavaScript](ch5.-javascript/README.md)
+  * [更多JavaScript內建函數](ch5.-javascript/geng-duo-javascript-jian-han.md)
   * [Ajax](ch5.-javascript/ajax.md)
   * [JSON](ch5.-javascript/json.md)
   * [ex. 練習作業](ch5.-javascript/ex.-zuo.md)
