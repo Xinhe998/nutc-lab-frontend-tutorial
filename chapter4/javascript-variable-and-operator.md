@@ -165,5 +165,31 @@ typeof [1,2,3,4];  //object
 typeof function(){};  //function
 ```
 
+## 資料型態轉換
+
+### 強制轉型
+
+因為運算式需要運算元是
+
+| 運算式 | 處理方式 |
+| :--- | :--- |
+| number和string相加 | number會強制轉換成string |
+| boolean和string相加 | boolean會強制轉換成string |
+| boolean和number相加 | boolean會強制轉換成number（true為1，false為0） |
+
+### 轉型函數
+
+| 函數 | 說明 |
+| :--- | :--- |
+| parseInt\(\) | 將字串開頭是數值的轉換為整數 |
+| parseFloat\(\) | 將字串開頭是浮點數的轉換為浮點數 |
+
+要注意的是以上兩個方法都只接受開頭為整數或浮點數的字串做轉型！若要轉型的字串格式不符，則轉型結果會是NaN（不是數值的代表）。
+
+```javascript
+var a = "page 10";
+console.log(parseInt(a));  //NaN
+```
+
 
 
