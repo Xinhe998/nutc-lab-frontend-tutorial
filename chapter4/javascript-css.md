@@ -15,7 +15,7 @@ document.getElementById("box").style.color = "#ffffff";
 以上方法是存取HTML物件的inline-style，但若想要拿到定義在CSS檔裡面的style，必須使用getComputedStyle\(element\) 的方法才行。
 
 ```javascript
-getComputedStyle(document.querySelector('.box.box1')).color;
+getComputedStyle(document.getElementById("box")).color;
 ```
 {% endhint %}
 
