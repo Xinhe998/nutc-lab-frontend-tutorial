@@ -2,7 +2,7 @@
 
 ## JavaScript變數
 
-JavaScript 變數名稱有區分英文大小寫，所以item, Item, ITEM可以是不同變數。
+JavaScript 變數名稱有區分英文大小寫，所以item, Item, ITEM會是不同變數。
 
 但變數名稱不能為保留字如下：
 

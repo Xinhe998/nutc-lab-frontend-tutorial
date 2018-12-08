@@ -22,8 +22,8 @@
   * [CSS Transition](ch3.-ren-shi-html5-yu-css4-2/css-transition.md)
   * [ex. 切版開發實戰](ch3.-ren-shi-html5-yu-css4-2/f2e-cut.md)
 * [Ch4. 第一次接觸JavaScript就上手](chapter4/README.md)
-  * [JavaScript事件](chapter4/javascript-shi-jian.md)
   * [取得DOM元素節點](chapter4/javascript-dom.md)
+  * [JavaScript事件](chapter4/javascript-shi-jian.md)
   * [動態CSS](chapter4/javascript-css.md)
   * [console.log\(\)](chapter4/console.log.md)
   * [JavaScript的變數＆運算子](chapter4/javascript-variable-and-operator.md)
@@ -43,6 +43,5 @@
 * [Ch8. jQuery 開發實戰 -2](chapter7.md)
 * [Ch9. 網頁速成好工具 Boostrap4](chapter8.md)
 * [Ch10. RWD響應式網頁實作](chapter9.md)
-* [Ch11. 超狂必備套件介紹](chapter10.md)
-* [Ch12. CSS再進階！使用Compass](chapter12.md)
+* [Ch11. CSS再進階！使用Compass](chapter12.md)
 
