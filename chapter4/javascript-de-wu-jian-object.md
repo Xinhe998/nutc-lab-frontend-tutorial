@@ -23,7 +23,7 @@ var obj = {
 console.log(obj);
 ```
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 當我們只要取得這個物件的其中一個屬性時，可以直接使用objName.propertyName的方式：
 
@@ -33,9 +33,24 @@ console.log("姓名：", obj.name);
 
 如此一來，我們就可以在HTML中寫入物件的資料：
 
-```text
-
+```markup
+<p>姓名：</p>
+<p>性別：</p>
+<p>E-mail：</p>
 ```
+
+```javascript
+var obj = {  
+        name : "Xinhe",   
+        gender: "female",   
+        email: "test@gmail.com"
+}
+document.getElementsByTagName("p")[0].innerHTML += obj.name;
+document.getElementsByTagName("p")[1].innerHTML += obj.gender;
+document.getElementsByTagName("p")[2].innerHTML += obj.email;
+```
+
+![](../.gitbook/assets/image%20%286%29.png)
 
 
 
