@@ -12,12 +12,12 @@ document.getElementById("box").style.color = "#ffffff";
 ```
 
 {% hint style="warning" %}
-以上方法是存取HTML物件的inline-style，但若想要拿到定義在CSS檔裡面的style，必須使用getComputedStyle\(element\) 的方法才行。
+以上方法是存取HTML物件的inline-style，但若想要拿到定義在CSS檔裡面的style，則必須使用getComputedStyle\(element\) 的方法才行。
 
 ```javascript
 getComputedStyle(document.getElementById("box")).color;
 ```
 {% endhint %}
 
-
+style物件屬性可以參考：[https://www.w3schools.com/jsref/dom\_obj\_style.asp](https://www.w3schools.com/jsref/dom_obj_style.asp)
 

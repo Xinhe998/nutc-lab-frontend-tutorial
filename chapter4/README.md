@@ -25,7 +25,7 @@ ECMAScript是目前Javascript統一的規格標準。
 
 現在，我們要開始進入JS的殿堂～
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 
 

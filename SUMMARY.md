@@ -24,6 +24,7 @@
 * [Ch4. 第一次接觸JavaScript就上手](chapter4/README.md)
   * [取得DOM元素節點](chapter4/javascript-dom.md)
   * [動態CSS](chapter4/javascript-css.md)
+  * [console.log](chapter4/console.log.md)
   * [JavaScript的變數＆運算子](chapter4/javascript-variable-and-operator.md)
   * [JavaScript的函數＆物件](chapter4/javascript-methods-and-object.md)
   * [ex. 練習作業](chapter4/ex.-zuo.md)

@@ -1,2 +1,86 @@
 # JavaScript的變數＆運算子
 
+## JavaScript變數
+
+JavaScript 變數名稱有區分英文大小寫，所以item, Item, ITEM可以是不同變數。
+
+但變數名稱不能為保留字如下：
+
+|  |  |  |  |  |
+| :--- | :--- | :--- | :--- | :--- |
+| break | case | catch | continue | debugger |
+| default | delete | do | else | false |
+| finally | for | function | if | in |
+| instanceof | new | null | return | switch |
+| this | throw | true | try | typeof |
+| var | void | while | with |  |
+
+變數名稱一定要使用英文字母或「 \_ 」開頭，不可使用數字或其他符號，且變數中也不可有「 . 」。
+
+### 變數宣告
+
+JavaScript 是動態定型語言，所以變數宣告都不需要指定型態，在JacaScript中大部分會使用var來宣告變數。
+
+```javascript
+var a = 10;
+a = "hello";
+console.log(a);
+```
+
+因為使用var定義的變數本身不帶任何型態資訊，所以同一個變數可以指定不同型態的值！
+
+> 但像是Java、C/C++等此類程式語言都必須先定義該變數的型態，稱之為靜態定型語言，好處就是在編譯時，可以由編譯器確認變數與實際的值是否符合，能夠在編譯時就檢查出型態指定不符的錯誤。
+
+而當宣告了變數卻沒有給定值，或是根本沒有宣告此變數的時候，其對應的值都會呈現undefined。
+
+```javascript
+var b;
+console.log(b);  //undefined
+```
+
+我們也可以利用 if statement 檢查變數是否存在：
+
+```javascript
+if (b) {
+    console.log("變數存在", b);
+} else {
+    console.log("變數不存在", b);
+}
+```
+
+而在ES6之後，出現了let和const這兩種定義變數的方式，主要是為了彌補 var 的一些缺陷而新設計出來的，那他們到底有什麼差別呢？
+
+* 使用let宣告的變數，**只能在區域中做使用**，例如: 陳述句\(if、else\)、迴圈\(for\)！！（非常重要）
+
+  ```javascript
+  for (let i = 0; i < 10; i += 1) {
+    console.log(i);
+  }
+  console.log(i); // ReferenceError: i is not defined
+  ```
+
+  有了let後，我們可以讓變數不會在其他地方被不小心使用或更改到。  
+
+* 使用const宣告了變數及其值後，就不能再修改了。
+
+  ```javascript
+  const num = 10;
+  num = 100;  //Uncaught TypeError: Assignment to constant variable.
+  ```
+
+## JavaScript資料型態
+
+JavaScript 有很多種資料型態：
+
+* 布林\(Boolean\)
+* 數值\(Number\)
+* 字串\(String\)
+* 陣列\(Array\)
+* 物件\(Object\)
+* 空值\(null\)
+* 未定義\(undefined\)
+* 函式\(Function\)
+* 符號\(Symbol\)
+
+## JavaScript的運算子（Operator）
+

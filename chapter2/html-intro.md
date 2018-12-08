@@ -159,7 +159,7 @@ viewport的作用是告訴瀏覽器，目前裝置有多寬\(或多高\)。
   </table>
   ```
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ### button：按鈕
 
