@@ -7,14 +7,14 @@ jQuery 最基本的中心思想就是以「選取 DOM 元素為開始」，接�
 只要記得在CSS學過的選擇器，jQuery就超級簡單哦 ^\_^
 
 ```text
-  $(selectors);
+$(selectors);
 ```
 
 例如：
 
-```text
-  $("#menu");
-  $("ul li");
+```javascript
+$("#menu");
+$("ul li");
 ```
 
 ## jQuery事件
@@ -23,18 +23,18 @@ jQuery 最基本的中心思想就是以「選取 DOM 元素為開始」，接�
 
 有些時候，我們必須在網頁下載完成之後立即執行一些程式，可能是想要馬上顯示一些歡迎訊息等等。
 
-```text
-  $(document).ready(function() {  
+```javascript
+$(document).ready(function() {  
     alert('您好，歡迎光臨');  
-  });
+});
 ```
 
 1. click\(\) 滑鼠點擊物件時
 
-```text
-  $("button").ready(function() {  
+```javascript
+ $("button").ready(function() {  
     alert('您好');  
-  });
+});
 ```
 
 1. dblclick\(\) 滑鼠連點二下物件時
@@ -52,41 +52,41 @@ jQuery 最基本的中心思想就是以「選取 DOM 元素為開始」，接�
 
 將指定元素顯示/消失。
 
-```text
-  $("#A").show();
-  $("#B").hide();
+```javascript
+$("#A").show();
+$("#B").hide();
 ```
 
 1. css\(\)
 
 加入或改變 css style的內容。
 
-```text
-  $("#Demo").css("color", "red");
+```javascript
+ $("#Demo").css("color", "red");
 ```
 
 若要改變多項css style則必須使用以下的方法。
 
-```text
-  $("#Demo").css({
+```javascript
+$("#Demo").css({
     "color":"block",
     "text-align":"center"
-  });
+});
 ```
 
 1. addClass\(\) / removeClass\(\)
 
 將指定元素的Html加入/移除class。
 
-```text
-  $("div").addClass("important");
+```javascript
+ $("div").addClass("important");
 ```
 
 1. append\(\)
 
 在指定元素之後插入元素
 
-```text
+```javascript
   $("p").append("Some appended text.");
   $("p").append("<a href="#">hello</a>");
 ```
@@ -97,13 +97,13 @@ jQuery 最基本的中心思想就是以「選取 DOM 元素為開始」，接�
 
 例如有個Html為：
 
-```text
+```markup
   <a href="/test" title="測試">測試</a>
 ```
 
 則可以使用jQuery拿到與更改其屬性值。
 
-```text
+```javascript
   $("a").attr("href");   //拿到"/test"
   $("a").attr("href","/admin") //更改此元素的href為"/admin"
 ```
@@ -124,7 +124,7 @@ jQuery 最基本的中心思想就是以「選取 DOM 元素為開始」，接�
 
 用來取得或改變元素的值。
 
-```text
+```javascript
  $("input").val()  //取得input的值
  $("input").val("hello")  //改變input的值
 ```
@@ -133,7 +133,7 @@ jQuery 最基本的中心思想就是以「選取 DOM 元素為開始」，接�
 
 用來取得或改變元素的文字。
 
-```text
+```javascript
   $("span").text()  //取得span的值
   $("span").text("hello")  //改變span的值
 ```
@@ -144,7 +144,7 @@ $\(this\) 是把當前指定的元素轉換為jQuery對象。
 
 例如：
 
-```text
+```javascript
   $("input").click(function () {
     var text = $(this).val();
   })
