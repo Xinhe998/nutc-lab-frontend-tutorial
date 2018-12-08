@@ -1,4 +1,4 @@
-# console.log
+# console.log\(\)
 
 在下一章節開始之前，必須介紹JavaScript中用了除錯的好方法 console.log\(\) ！
 
