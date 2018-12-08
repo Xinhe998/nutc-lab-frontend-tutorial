@@ -1,4 +1,4 @@
-# Ch7. jQuery 開發實戰 -2
+# Ch8. jQuery 開發實戰 -2
 
 
 
