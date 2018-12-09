@@ -114,6 +114,7 @@ JavaScript可以用以下幾種方式拿到DOM元素：
 | click\(\) | 點擊此節點物件。 |
 | focus\(\) | 聚焦此節點物件。 |
 | innerHTML | 取得該節點內的HTHL。 |
+| remove\(\) | 移除該節點。 |
 | value | 取得該節點的value屬性值。 |
 | style | 設置或返回元素的CSS樣式屬性。 |
 | setAttribute\(\) | 設定元素的指定屬性值。 |
