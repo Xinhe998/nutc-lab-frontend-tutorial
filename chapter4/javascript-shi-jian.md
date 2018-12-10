@@ -20,7 +20,7 @@ keypress – 某個按鍵被敲擊時
 
 ```javascript
 document.getElementById("box").addEventListener('click', function () {
-  a(alert('this is a box');
+  alert('this is a box');
 });
 ```
 

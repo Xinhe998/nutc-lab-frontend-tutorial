@@ -18,7 +18,7 @@ JavaScript可以用以下幾種方式拿到DOM元素：
 <head>
     <script type="text/javascript">
         //alert元素id是title物件之標籤內的內容
-        alert(document.getElementById("title").innerHTML())
+        alert(document.getElementById("title").innerHTML)
     </script>
 </head>
 <body>
@@ -32,7 +32,7 @@ JavaScript可以用以下幾種方式拿到DOM元素：
 <head>
     <script type="text/javascript">
         //alert元素標籤是h1的內容
-        alert(document.getElementTagName("h1").innerHTML())
+        alert(document.getElementTagName("h1").innerHTML)
     </script>
 </head>
 <body>
