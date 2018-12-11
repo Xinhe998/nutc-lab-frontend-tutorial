@@ -23,7 +23,7 @@ var obj = {
 console.log(obj);
 ```
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 當我們只要取得這個物件的其中一個屬性時，可以直接使用objName.propertyName的方式：
 
