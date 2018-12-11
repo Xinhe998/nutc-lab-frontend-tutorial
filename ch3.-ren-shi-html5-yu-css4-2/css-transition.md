@@ -23,7 +23,7 @@
 >
 >
 >
-> ![](../.gitbook/assets/image%20%282%29.png)
+> ![](../.gitbook/assets/image%20%283%29.png)
 >
 > * linear：均速
 > * ease：先快後慢

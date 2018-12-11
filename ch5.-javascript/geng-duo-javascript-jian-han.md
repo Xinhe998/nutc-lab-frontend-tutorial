@@ -43,15 +43,27 @@ console.log(str.link("#"));   //<a href="#">hello</a>
 | match\(string\) | 如同indexOf\(\)，不過回傳的是找到的字串，沒找到則回傳null |
 | search\(string\) | 與indexOf\(\)功能相似 |
 
-![match\(\) &#x7D50;&#x679C;&#x7BC4;&#x4F8B;](../.gitbook/assets/image%20%287%29.png)
+![match\(\) &#x7D50;&#x679C;&#x7BC4;&#x4F8B;](../.gitbook/assets/image%20%288%29.png)
 
 ### 取代、分割、取出字串
 
 | Function | Description |
 | :--- | :--- |
 | replace\(string1, string2\) | 將字串中找到的string1取代為string2 |
-| split\(string\) | 取得字串中index位置的字元的Unicode |
-|  |  |
+| split\(string\) | 利用參數string將指定字串分割並傳回Array |
+| substr\(index, length\) | 從index開始取出length個字元 |
+| substring\(index1, index2\) | 取出index1到index2中間的字串 |
+| concat\(string\) | 將string參數新增到指定字串後 |
+
+![split\(\) &#x7D50;&#x679C;&#x7BC4;&#x4F8B;](../.gitbook/assets/image%20%282%29.png)
+
+```javascript
+str3 = str1.concat(str2);
+```
+
+以上的範例相當於 `str3 = str1 + str2`
+
+## Array
 
 
 
