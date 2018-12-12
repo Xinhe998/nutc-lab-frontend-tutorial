@@ -33,7 +33,6 @@
   * [JavaScript的物件（Object）](ch5.-javascript/javascript-de-wu-jian-object.md)
   * [更多JavaScript內建函數](ch5.-javascript/geng-duo-javascript-jian-han.md)
   * [setInterval\(\) & setTimeout\(\)](ch5.-javascript/setinterval-and-settimeout.md)
-  * [萬惡的this](ch5.-javascript/de-this.md)
   * [JSON](ch5.-javascript/json.md)
   * [ex. 練習作業](ch5.-javascript/ex.-zuo.md)
 * [Ch6. 初次見面jQuery](chapter5/README.md)
