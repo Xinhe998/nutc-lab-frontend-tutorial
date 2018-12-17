@@ -4,7 +4,7 @@
 
 DOM的核心概念是將HTML於元素轉換成一顆節點樹，而每一個標籤就是一個一個節點（Nodes），**每一個節點皆為物件\(Object\)且擁有各自的屬性以及方法**，並且DOM以走訪的方式來存取HTML元素。
 
-![DOM&#x7BC0;&#x9EDE;&#x6A39;](../.gitbook/assets/image%20%2811%29.png)
+![DOM&#x7BC0;&#x9EDE;&#x6A39;](../.gitbook/assets/image%20%2812%29.png)
 
 ## JavaScript取得HTML元素
 
@@ -90,7 +90,7 @@ JavaScript可以用以下幾種方式拿到DOM元素：
 </body>
 ```
 
-![querySelectorAll\(\)&#x7D50;&#x679C;&#x793A;&#x7BC4;](../.gitbook/assets/image%20%285%29.png)
+![querySelectorAll\(\)&#x7D50;&#x679C;&#x793A;&#x7BC4;](../.gitbook/assets/image%20%286%29.png)
 
 ## DOM節點間查找
 

@@ -8,7 +8,13 @@
 
 API是Application Programming Interface的縮寫，中文為應用程式介面，也就是提供一個**接口**，讓程式可以去取得需要的資料。
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
+
+## 如何測試API：Postman
+
+請先下載Postman：[https://www.getpostman.com/apps](https://www.getpostman.com/apps)
+
+![](../.gitbook/assets/image%20%285%29.png)
 
 ## 如何串接API：AJAX
 
@@ -35,6 +41,10 @@ $.ajax({
 jQuery AJAX當中的參數：
 
 * **dataType：**預期Server傳回的資料類型，**如果沒指定，jQuery會根據HTTP MIME Type自動選擇以responseXML或responseText傳入你的success callback**。可選的資料類型有：                   xml：傳回可用jQuery處理的XML                   html：傳回HTML，包含jQuery會自動幫你處理的script tags。                   script：傳回可執行的JavaScript。\(script不會被自動cache，除非cache設為true\)                   json：傳回JSON                   jsonp：在URL加上?callback=?參數，並在Server端配合送回此jsonp callback。                   text：傳回純文字字串。
+
+
+
+* **type：**請求方式，POST/GET。
 
 \*\*\*\*
 

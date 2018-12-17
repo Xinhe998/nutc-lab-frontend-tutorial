@@ -23,7 +23,7 @@ var obj = {
 console.log(obj);
 ```
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 當我們只要取得這個物件的其中一個屬性時，可以直接使用objName.propertyName的方式：
 
@@ -50,7 +50,7 @@ document.getElementsByTagName("p")[1].innerHTML += obj.gender;
 document.getElementsByTagName("p")[2].innerHTML += obj.email;
 ```
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 
 

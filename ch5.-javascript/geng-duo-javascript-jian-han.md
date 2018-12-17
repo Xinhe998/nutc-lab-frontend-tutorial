@@ -43,7 +43,7 @@ console.log(str.link("#"));   //<a href="#">hello</a>
 | match\(string\) | 如同indexOf\(\)，不過回傳的是找到的字串，沒找到則回傳null |
 | search\(string\) | 與indexOf\(\)功能相似 |
 
-![match\(\) &#x7D50;&#x679C;&#x7BC4;&#x4F8B;](../.gitbook/assets/image%20%2810%29.png)
+![match\(\) &#x7D50;&#x679C;&#x7BC4;&#x4F8B;](../.gitbook/assets/image%20%2811%29.png)
 
 ### 取代、分割、取出字串
 

@@ -19,7 +19,7 @@ $("ul li");
 
 ## jQuery事件
 
-1. $\(document\).ready\(\) 
+* $\(document\).ready\(\) 
 
 有些時候，我們必須在網頁下載完成之後立即執行一些程式，可能是想要馬上顯示一些歡迎訊息等等。
 
@@ -29,7 +29,7 @@ $(document).ready(function() {
 });
 ```
 
-1. click\(\) 滑鼠點擊物件時
+* click\(\) 滑鼠點擊物件時
 
 ```javascript
  $("button").ready(function() {  
@@ -37,18 +37,18 @@ $(document).ready(function() {
 });
 ```
 
-1. dblclick\(\) 滑鼠連點二下物件時
-2. mouseenter\(\) 滑鼠進入時
-3. mouseleave\(\) 滑鼠移開時
-4. mousedown\(\)  按下滑鼠時
-5. mouseup\(\)  按下滑鼠並放開時
-6. hover\(\)
-7. focus\(\)  
-8. change\(\)  元素內容改變時，e.g.input中輸入了文字。
+* dblclick\(\) 滑鼠連點二下物件時
+* mouseenter\(\) 滑鼠進入時
+* mouseleave\(\) 滑鼠移開時
+* mousedown\(\)  按下滑鼠時
+* mouseup\(\)  按下滑鼠並放開時
+* hover\(\)
+* focus\(\)  
+* change\(\)  元素內容改變時，e.g.input中輸入了文字。
 
 ## 常用jQuery方法
 
-1. show\(\) / hide\(\)
+* show\(\) / hide\(\)
 
 將指定元素顯示/消失。
 
@@ -57,7 +57,7 @@ $("#A").show();
 $("#B").hide();
 ```
 
-1. css\(\)
+* css\(\)
 
 加入或改變 css style的內容。
 
@@ -74,7 +74,7 @@ $("#Demo").css({
 });
 ```
 
-1. addClass\(\) / removeClass\(\)
+* addClass\(\) / removeClass\(\)
 
 將指定元素的Html加入/移除class。
 
@@ -82,7 +82,7 @@ $("#Demo").css({
  $("div").addClass("important");
 ```
 
-1. append\(\)
+* append\(\)
 
 在指定元素之後插入元素
 
@@ -91,7 +91,7 @@ $("#Demo").css({
   $("p").append("<a href="#">hello</a>");
 ```
 
-1. attr\(\)
+* attr\(\)
 
 此方法乃是 jQuery 對於 Html Tag 屬性的操作。
 
@@ -108,7 +108,7 @@ $("#Demo").css({
   $("a").attr("href","/admin") //更改此元素的href為"/admin"
 ```
 
-1. 遍歷
+* 遍歷
 
 | 函數 | 說明 |
 | :--- | :--- |
@@ -120,7 +120,7 @@ $("#Demo").css({
 | eq\(n\) | 得到的所有元素中的第n個元素 |
 | find\(\) | 得到指定元素的**所有**子元素 |
 
-1. val\(\)
+* val\(\)
 
 用來取得或改變元素的值。
 
@@ -129,7 +129,7 @@ $("#Demo").css({
  $("input").val("hello")  //改變input的值
 ```
 
-1. text\(\)
+* text\(\)
 
 用來取得或改變元素的文字。
 
