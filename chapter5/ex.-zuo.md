@@ -1,6 +1,6 @@
 # ex. 練習作業
 
-## JavaScript 計算機
+## jQuery 計算機
 
 ![](../.gitbook/assets/screenshot-file-users-xinhe-project-frontend-tutorial-demo-jquery-20calcula-1544290200713.png)
 
