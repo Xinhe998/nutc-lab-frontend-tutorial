@@ -32,7 +32,7 @@ $(document).ready(function() {
 * click\(\) 滑鼠點擊物件時
 
 ```javascript
- $("button").ready(function() {  
+ $("button").click(function() {  
     alert('您好');  
 });
 ```
@@ -119,6 +119,37 @@ $("#Demo").css({
 | last\(\) | 得到的所有元素中的最後一個元素 |
 | eq\(n\) | 得到的所有元素中的第n個元素 |
 | find\(\) | 得到指定元素的**所有**子元素 |
+
+* .each\(\)  
+
+
+  **元素的遍歷**
+
+  ```markup
+  <ul>
+      <li>Coffee</li>
+      <li>Milk</li>
+      <li>Soda</li>
+  </ul>
+  ```
+
+  ```javascript
+  $(document).ready(function(){
+      $("li").each(function(){
+        console.log($(this).text())
+      });
+  });
+  ```
+
+  **陣列、Object資料的遍歷**
+
+  ```javascript
+   var arr1 = [ "aaa", "bbb", "ccc" ];      
+    $.each(arr1, function(i,val){      
+        console.log(i);   
+        console.log(val);
+    });   
+  ```
 
 * val\(\)
 
