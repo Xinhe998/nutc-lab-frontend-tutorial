@@ -2,7 +2,7 @@
 
 ## 手把手實作jQuery Slider
 
-![](../.gitbook/assets/xia-zai-1.png)
+![](.gitbook/assets/xia-zai-1.png)
 
 ## jQuery animate\(\)
 
