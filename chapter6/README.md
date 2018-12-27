@@ -4,5 +4,11 @@
 
 ![](../.gitbook/assets/xia-zai-1.png)
 
+## jQuery animate\(\)
+
+```javascript
+$(selector).animate(styles,speed,easing,callback)
+```
+
 
 
