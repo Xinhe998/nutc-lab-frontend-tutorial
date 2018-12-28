@@ -1,4 +1,14 @@
-# Ch8. jQuery 開發實戰 -2
+# Ch7. jQuery 開發實戰 -1
+
+## 手把手實作jQuery Slider
+
+![](.gitbook/assets/xia-zai-1.png)
+
+## jQuery animate\(\)
+
+```javascript
+$(selector).animate(styles,speed,easing,callback)
+```
 
 
 
